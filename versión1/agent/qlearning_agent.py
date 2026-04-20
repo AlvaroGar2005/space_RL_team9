@@ -37,7 +37,7 @@ class QLearningAgent:
         self.epsilon   = EPSILON_START
         print(f"[Agent] Q-table initialized  shape: ({self.n_states}, {self.n_actions})")
 
-    # ── Policy ─────────────────────────────────
+    #Policy
 
     def choose_action(self, state: int, env: gym.Env) -> int:
         """
@@ -53,7 +53,7 @@ class QLearningAgent:
         """Pure greedy action (used during evaluation, ε = 0)."""
         return int(np.argmax(self.qtable[state]))
 
-    # ── Learning ───────────────────────────────
+    #Learning
 
     def update(
         self,
@@ -80,7 +80,7 @@ class QLearningAgent:
         """Apply multiplicative epsilon decay after each episode."""
         self.epsilon = max(EPSILON_MIN, self.epsilon * EPSILON_DECAY)
 
-    # ── Persistence ────────────────────────────
+    # Persistence
 
     def save(self, path: str = QTABLE_PATH):
         """Save the Q-table as a .npy file."""

@@ -28,7 +28,7 @@ LOG_EVERY       = 500
 # ──────────────────────────────────────────────
 N_EVAL_EPS  = 100
 DEMO_EPS    = 3
-RENDER_DEMO = False
+RENDER_DEMO = True
 
 # ──────────────────────────────────────────────
 # Wrapper settings

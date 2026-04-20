@@ -23,7 +23,7 @@ from environment import make_env_v2, make_env_base
 from config import RISKY_ACTIONS
 
 
-# ── RewardWrapper ─────────────────────────────────────────────────────────────
+#RewardWrapper
 
 class TestRewardWrapper:
 
@@ -78,7 +78,7 @@ class TestRewardWrapper:
         assert "wrapper_bonus" in stats
 
 
-# ── ObservationWrapper ────────────────────────────────────────────────────────
+#ObservationWrapper
 
 class TestObservationWrapper:
 
@@ -128,7 +128,7 @@ class TestObservationWrapper:
         assert len(decoded) > 0
 
 
-# ── ActionWrapper ─────────────────────────────────────────────────────────────
+# ActionWrapper
 
 class TestActionWrapper:
 
@@ -184,7 +184,7 @@ class TestActionWrapper:
         assert 0.0 <= stats["useful_actions_ratio"] <= 1.0
 
 
-# ── Composed wrapped environment ──────────────────────────────────────────────
+#Composed wrapped environment
 
 class TestComposedEnvironment:
 

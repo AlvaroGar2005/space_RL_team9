@@ -28,7 +28,7 @@ LOG_EVERY       = 500      # console log frequency during training
 # ──────────────────────────────────────────────
 N_EVAL_EPS  = 100   # episodes for greedy evaluation
 DEMO_EPS    = 3     # episodes rendered in human mode
-RENDER_DEMO = False # set True to watch the agent play
+RENDER_DEMO = True # set True to watch the agent play
 
 # ──────────────────────────────────────────────
 # Plotting

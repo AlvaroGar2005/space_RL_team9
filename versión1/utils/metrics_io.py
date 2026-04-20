@@ -18,7 +18,7 @@ import pandas as pd
 from config import METRICS_NPZ_PATH, METRICS_CSV_PATH, EVAL_CSV_PATH
 
 
-# ── Training metrics ──────────────────────────────────────────────────────────
+#Training metrics
 
 def save_training_metrics(
     rewards: np.ndarray,
@@ -39,7 +39,7 @@ def save_training_metrics(
         npz_path        : output path for the numpy archive
         csv_path        : output path for the CSV file
     """
-    # ── Numpy archive ──────────────────────
+    #Numpy archive
     os.makedirs(os.path.dirname(npz_path), exist_ok=True)
     np.savez(
         npz_path,
@@ -50,7 +50,7 @@ def save_training_metrics(
     )
     print(f"[IO] Training metrics saved (npz) → {npz_path}")
 
-    # ── CSV via pandas ─────────────────────
+    #CSV via pandas
     os.makedirs(os.path.dirname(csv_path), exist_ok=True)
     df = pd.DataFrame(
         {
@@ -108,7 +108,7 @@ def load_training_metrics(
         sys.exit(1)
 
 
-# ── Evaluation metrics ────────────────────────────────────────────────────────
+#Evaluation metrics
 
 def save_evaluation_metrics(
     rewards: np.ndarray,
@@ -150,7 +150,7 @@ def load_evaluation_metrics(csv_path: str = EVAL_CSV_PATH) -> pd.DataFrame:
         sys.exit(1)
 
 
-# ── Summary statistics ────────────────────────────────────────────────────────
+#Summary statistics
 
 def training_summary(df: pd.DataFrame, last_n: int = 500) -> pd.DataFrame:
     """

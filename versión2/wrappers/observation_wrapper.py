@@ -38,7 +38,7 @@ from gymnasium.spaces import Discrete
 from config import OBS_GRID_SIZE, OBS_N_PASSENGER, OBS_N_DEST
 
 
-# ── Decode / encode helpers (module-level so tests can import them) ──────────
+#Decode / encode helpers (module-level so tests can import them)
 
 def decode_taxi_state(state: int) -> tuple:
     """

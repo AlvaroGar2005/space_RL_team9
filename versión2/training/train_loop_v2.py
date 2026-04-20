@@ -85,7 +85,7 @@ def run_training_v2(
 
         agent.decay_epsilon()
 
-        # ── Collect wrapper stats ──────────────────
+        # Collect wrapper stats
         # Unwrap to reach each individual wrapper layer
         reward_w = _get_wrapper(env, "SpaceRLRewardWrapper")
         action_w = _get_wrapper(env, "SpaceRLActionWrapper")
@@ -93,7 +93,7 @@ def run_training_v2(
         rew_stats = reward_w.get_episode_wrapper_stats() if reward_w else {}
         act_stats = action_w.get_episode_action_stats()  if action_w else {}
 
-        # ── Store metrics ──────────────────────────
+        #Store metrics
         rewards[ep]                = total_reward
         steps_arr[ep]              = n_steps
         td_errors[ep]              = total_td / n_steps if n_steps > 0 else 0.0
@@ -108,7 +108,7 @@ def run_training_v2(
         risky_ratio_arr[ep]        = act_stats.get("risky_action_ratio", 0.0)
         useful_ratio_arr[ep]       = act_stats.get("useful_actions_ratio", 1.0)
 
-        # ── Console log ────────────────────────────
+        # Console log
         if (ep + 1) % log_every == 0:
             w_start  = max(0, ep - log_every + 1)
             avg_rew  = np.mean(rewards[w_start : ep + 1])

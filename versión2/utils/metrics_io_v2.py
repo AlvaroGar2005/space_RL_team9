@@ -19,7 +19,7 @@ import pandas as pd
 from config import METRICS_NPZ_PATH, METRICS_CSV_PATH, EVAL_CSV_PATH
 
 
-# ── Training ──────────────────────────────────────────────────────────────────
+# Training
 
 def save_training_metrics_v2(metrics: dict,
                               npz_path: str = METRICS_NPZ_PATH,
@@ -75,7 +75,7 @@ def load_training_metrics_v2(csv_path: str = METRICS_CSV_PATH) -> pd.DataFrame:
         sys.exit(1)
 
 
-# ── Evaluation ────────────────────────────────────────────────────────────────
+# Evaluation
 
 def save_evaluation_metrics_v2(rewards, steps, successes,
                                  invalid_arr, penalty_arr, bonus_arr,
@@ -110,7 +110,7 @@ def load_evaluation_metrics_v2(csv_path: str = EVAL_CSV_PATH) -> pd.DataFrame:
         sys.exit(1)
 
 
-# ── Summary helpers ───────────────────────────────────────────────────────────
+# Summary helpers
 
 def training_summary_v2(df: pd.DataFrame, last_n: int = 500) -> pd.DataFrame:
     tail = df.tail(last_n)

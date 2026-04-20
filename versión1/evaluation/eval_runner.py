@@ -17,7 +17,7 @@ from agent.qlearning_agent import QLearningAgent
 from environment.taxi_env import make_env
 
 
-# ── Single episode ────────────────────────────────────────────────────────────
+#Single episode
 
 def run_greedy_episode(
     env: gym.Env,
@@ -72,7 +72,7 @@ def run_greedy_episode(
     return total_reward, step + 1, success
 
 
-# ── Batch evaluation ──────────────────────────────────────────────────────────
+#Batch evaluation
 
 def evaluate_agent(
     agent: QLearningAgent,
@@ -103,7 +103,7 @@ def evaluate_agent(
     return rewards, steps, successes
 
 
-# ── Visual demo ───────────────────────────────────────────────────────────────
+# Visual demo
 
 def run_demo(agent: QLearningAgent, n_demo: int = DEMO_EPS):
     """

@@ -1,0 +1,973 @@
+state_id,energy,oxygen,food,fuel,hull,event,energy_lvl,oxygen_lvl,food_lvl,fuel_lvl,hull_lvl,mhi,crisp_risk,status,greedy_action,greedy_qvalue,appropriate_action
+0,critical/low,critical/low,critical/low,critical/low,critical/low,Normal,0,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+1,critical/low,critical/low,critical/low,critical/low,critical/low,Solar Storm,0,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+2,critical/low,critical/low,critical/low,critical/low,critical/low,Asteroid Impact,0,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+3,critical/low,critical/low,critical/low,critical/low,critical/low,Safe Zone,0,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+4,critical/low,critical/low,critical/low,critical/low,stable/mid,Normal,0,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+5,critical/low,critical/low,critical/low,critical/low,stable/mid,Solar Storm,0,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+6,critical/low,critical/low,critical/low,critical/low,stable/mid,Asteroid Impact,0,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+7,critical/low,critical/low,critical/low,critical/low,stable/mid,Safe Zone,0,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+8,critical/low,critical/low,critical/low,critical/low,optimal/high,Normal,0,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+9,critical/low,critical/low,critical/low,critical/low,optimal/high,Solar Storm,0,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+10,critical/low,critical/low,critical/low,critical/low,optimal/high,Asteroid Impact,0,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+11,critical/low,critical/low,critical/low,critical/low,optimal/high,Safe Zone,0,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+12,critical/low,critical/low,critical/low,stable/mid,critical/low,Normal,0,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+13,critical/low,critical/low,critical/low,stable/mid,critical/low,Solar Storm,0,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+14,critical/low,critical/low,critical/low,stable/mid,critical/low,Asteroid Impact,0,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+15,critical/low,critical/low,critical/low,stable/mid,critical/low,Safe Zone,0,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+16,critical/low,critical/low,critical/low,stable/mid,stable/mid,Normal,0,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+17,critical/low,critical/low,critical/low,stable/mid,stable/mid,Solar Storm,0,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+18,critical/low,critical/low,critical/low,stable/mid,stable/mid,Asteroid Impact,0,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+19,critical/low,critical/low,critical/low,stable/mid,stable/mid,Safe Zone,0,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+20,critical/low,critical/low,critical/low,stable/mid,optimal/high,Normal,0,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+21,critical/low,critical/low,critical/low,stable/mid,optimal/high,Solar Storm,0,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+22,critical/low,critical/low,critical/low,stable/mid,optimal/high,Asteroid Impact,0,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+23,critical/low,critical/low,critical/low,stable/mid,optimal/high,Safe Zone,0,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+24,critical/low,critical/low,critical/low,optimal/high,critical/low,Normal,0,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+25,critical/low,critical/low,critical/low,optimal/high,critical/low,Solar Storm,0,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+26,critical/low,critical/low,critical/low,optimal/high,critical/low,Asteroid Impact,0,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+27,critical/low,critical/low,critical/low,optimal/high,critical/low,Safe Zone,0,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+28,critical/low,critical/low,critical/low,optimal/high,stable/mid,Normal,0,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+29,critical/low,critical/low,critical/low,optimal/high,stable/mid,Solar Storm,0,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+30,critical/low,critical/low,critical/low,optimal/high,stable/mid,Asteroid Impact,0,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+31,critical/low,critical/low,critical/low,optimal/high,stable/mid,Safe Zone,0,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+32,critical/low,critical/low,critical/low,optimal/high,optimal/high,Normal,0,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+33,critical/low,critical/low,critical/low,optimal/high,optimal/high,Solar Storm,0,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+34,critical/low,critical/low,critical/low,optimal/high,optimal/high,Asteroid Impact,0,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+35,critical/low,critical/low,critical/low,optimal/high,optimal/high,Safe Zone,0,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+36,critical/low,critical/low,stable/mid,critical/low,critical/low,Normal,0,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+37,critical/low,critical/low,stable/mid,critical/low,critical/low,Solar Storm,0,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+38,critical/low,critical/low,stable/mid,critical/low,critical/low,Asteroid Impact,0,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+39,critical/low,critical/low,stable/mid,critical/low,critical/low,Safe Zone,0,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+40,critical/low,critical/low,stable/mid,critical/low,stable/mid,Normal,0,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+41,critical/low,critical/low,stable/mid,critical/low,stable/mid,Solar Storm,0,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+42,critical/low,critical/low,stable/mid,critical/low,stable/mid,Asteroid Impact,0,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+43,critical/low,critical/low,stable/mid,critical/low,stable/mid,Safe Zone,0,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+44,critical/low,critical/low,stable/mid,critical/low,optimal/high,Normal,0,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+45,critical/low,critical/low,stable/mid,critical/low,optimal/high,Solar Storm,0,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+46,critical/low,critical/low,stable/mid,critical/low,optimal/high,Asteroid Impact,0,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+47,critical/low,critical/low,stable/mid,critical/low,optimal/high,Safe Zone,0,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+48,critical/low,critical/low,stable/mid,stable/mid,critical/low,Normal,0,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+49,critical/low,critical/low,stable/mid,stable/mid,critical/low,Solar Storm,0,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+50,critical/low,critical/low,stable/mid,stable/mid,critical/low,Asteroid Impact,0,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+51,critical/low,critical/low,stable/mid,stable/mid,critical/low,Safe Zone,0,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+52,critical/low,critical/low,stable/mid,stable/mid,stable/mid,Normal,0,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+53,critical/low,critical/low,stable/mid,stable/mid,stable/mid,Solar Storm,0,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+54,critical/low,critical/low,stable/mid,stable/mid,stable/mid,Asteroid Impact,0,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+55,critical/low,critical/low,stable/mid,stable/mid,stable/mid,Safe Zone,0,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+56,critical/low,critical/low,stable/mid,stable/mid,optimal/high,Normal,0,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+57,critical/low,critical/low,stable/mid,stable/mid,optimal/high,Solar Storm,0,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+58,critical/low,critical/low,stable/mid,stable/mid,optimal/high,Asteroid Impact,0,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+59,critical/low,critical/low,stable/mid,stable/mid,optimal/high,Safe Zone,0,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+60,critical/low,critical/low,stable/mid,optimal/high,critical/low,Normal,0,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+61,critical/low,critical/low,stable/mid,optimal/high,critical/low,Solar Storm,0,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+62,critical/low,critical/low,stable/mid,optimal/high,critical/low,Asteroid Impact,0,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+63,critical/low,critical/low,stable/mid,optimal/high,critical/low,Safe Zone,0,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+64,critical/low,critical/low,stable/mid,optimal/high,stable/mid,Normal,0,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+65,critical/low,critical/low,stable/mid,optimal/high,stable/mid,Solar Storm,0,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+66,critical/low,critical/low,stable/mid,optimal/high,stable/mid,Asteroid Impact,0,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+67,critical/low,critical/low,stable/mid,optimal/high,stable/mid,Safe Zone,0,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+68,critical/low,critical/low,stable/mid,optimal/high,optimal/high,Normal,0,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+69,critical/low,critical/low,stable/mid,optimal/high,optimal/high,Solar Storm,0,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+70,critical/low,critical/low,stable/mid,optimal/high,optimal/high,Asteroid Impact,0,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+71,critical/low,critical/low,stable/mid,optimal/high,optimal/high,Safe Zone,0,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+72,critical/low,critical/low,optimal/high,critical/low,critical/low,Normal,0,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+73,critical/low,critical/low,optimal/high,critical/low,critical/low,Solar Storm,0,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+74,critical/low,critical/low,optimal/high,critical/low,critical/low,Asteroid Impact,0,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+75,critical/low,critical/low,optimal/high,critical/low,critical/low,Safe Zone,0,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+76,critical/low,critical/low,optimal/high,critical/low,stable/mid,Normal,0,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+77,critical/low,critical/low,optimal/high,critical/low,stable/mid,Solar Storm,0,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+78,critical/low,critical/low,optimal/high,critical/low,stable/mid,Asteroid Impact,0,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+79,critical/low,critical/low,optimal/high,critical/low,stable/mid,Safe Zone,0,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+80,critical/low,critical/low,optimal/high,critical/low,optimal/high,Normal,0,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+81,critical/low,critical/low,optimal/high,critical/low,optimal/high,Solar Storm,0,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+82,critical/low,critical/low,optimal/high,critical/low,optimal/high,Asteroid Impact,0,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+83,critical/low,critical/low,optimal/high,critical/low,optimal/high,Safe Zone,0,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+84,critical/low,critical/low,optimal/high,stable/mid,critical/low,Normal,0,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+85,critical/low,critical/low,optimal/high,stable/mid,critical/low,Solar Storm,0,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+86,critical/low,critical/low,optimal/high,stable/mid,critical/low,Asteroid Impact,0,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+87,critical/low,critical/low,optimal/high,stable/mid,critical/low,Safe Zone,0,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+88,critical/low,critical/low,optimal/high,stable/mid,stable/mid,Normal,0,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+89,critical/low,critical/low,optimal/high,stable/mid,stable/mid,Solar Storm,0,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+90,critical/low,critical/low,optimal/high,stable/mid,stable/mid,Asteroid Impact,0,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+91,critical/low,critical/low,optimal/high,stable/mid,stable/mid,Safe Zone,0,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+92,critical/low,critical/low,optimal/high,stable/mid,optimal/high,Normal,0,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+93,critical/low,critical/low,optimal/high,stable/mid,optimal/high,Solar Storm,0,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+94,critical/low,critical/low,optimal/high,stable/mid,optimal/high,Asteroid Impact,0,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+95,critical/low,critical/low,optimal/high,stable/mid,optimal/high,Safe Zone,0,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+96,critical/low,critical/low,optimal/high,optimal/high,critical/low,Normal,0,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+97,critical/low,critical/low,optimal/high,optimal/high,critical/low,Solar Storm,0,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+98,critical/low,critical/low,optimal/high,optimal/high,critical/low,Asteroid Impact,0,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+99,critical/low,critical/low,optimal/high,optimal/high,critical/low,Safe Zone,0,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+100,critical/low,critical/low,optimal/high,optimal/high,stable/mid,Normal,0,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+101,critical/low,critical/low,optimal/high,optimal/high,stable/mid,Solar Storm,0,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+102,critical/low,critical/low,optimal/high,optimal/high,stable/mid,Asteroid Impact,0,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+103,critical/low,critical/low,optimal/high,optimal/high,stable/mid,Safe Zone,0,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+104,critical/low,critical/low,optimal/high,optimal/high,optimal/high,Normal,0,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+105,critical/low,critical/low,optimal/high,optimal/high,optimal/high,Solar Storm,0,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+106,critical/low,critical/low,optimal/high,optimal/high,optimal/high,Asteroid Impact,0,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+107,critical/low,critical/low,optimal/high,optimal/high,optimal/high,Safe Zone,0,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+108,critical/low,stable/mid,critical/low,critical/low,critical/low,Normal,0,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+109,critical/low,stable/mid,critical/low,critical/low,critical/low,Solar Storm,0,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+110,critical/low,stable/mid,critical/low,critical/low,critical/low,Asteroid Impact,0,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+111,critical/low,stable/mid,critical/low,critical/low,critical/low,Safe Zone,0,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+112,critical/low,stable/mid,critical/low,critical/low,stable/mid,Normal,0,1,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+113,critical/low,stable/mid,critical/low,critical/low,stable/mid,Solar Storm,0,1,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+114,critical/low,stable/mid,critical/low,critical/low,stable/mid,Asteroid Impact,0,1,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+115,critical/low,stable/mid,critical/low,critical/low,stable/mid,Safe Zone,0,1,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+116,critical/low,stable/mid,critical/low,critical/low,optimal/high,Normal,0,1,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+117,critical/low,stable/mid,critical/low,critical/low,optimal/high,Solar Storm,0,1,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+118,critical/low,stable/mid,critical/low,critical/low,optimal/high,Asteroid Impact,0,1,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+119,critical/low,stable/mid,critical/low,critical/low,optimal/high,Safe Zone,0,1,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+120,critical/low,stable/mid,critical/low,stable/mid,critical/low,Normal,0,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+121,critical/low,stable/mid,critical/low,stable/mid,critical/low,Solar Storm,0,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+122,critical/low,stable/mid,critical/low,stable/mid,critical/low,Asteroid Impact,0,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+123,critical/low,stable/mid,critical/low,stable/mid,critical/low,Safe Zone,0,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+124,critical/low,stable/mid,critical/low,stable/mid,stable/mid,Normal,0,1,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+125,critical/low,stable/mid,critical/low,stable/mid,stable/mid,Solar Storm,0,1,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+126,critical/low,stable/mid,critical/low,stable/mid,stable/mid,Asteroid Impact,0,1,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+127,critical/low,stable/mid,critical/low,stable/mid,stable/mid,Safe Zone,0,1,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+128,critical/low,stable/mid,critical/low,stable/mid,optimal/high,Normal,0,1,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+129,critical/low,stable/mid,critical/low,stable/mid,optimal/high,Solar Storm,0,1,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+130,critical/low,stable/mid,critical/low,stable/mid,optimal/high,Asteroid Impact,0,1,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+131,critical/low,stable/mid,critical/low,stable/mid,optimal/high,Safe Zone,0,1,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+132,critical/low,stable/mid,critical/low,optimal/high,critical/low,Normal,0,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+133,critical/low,stable/mid,critical/low,optimal/high,critical/low,Solar Storm,0,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+134,critical/low,stable/mid,critical/low,optimal/high,critical/low,Asteroid Impact,0,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+135,critical/low,stable/mid,critical/low,optimal/high,critical/low,Safe Zone,0,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+136,critical/low,stable/mid,critical/low,optimal/high,stable/mid,Normal,0,1,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+137,critical/low,stable/mid,critical/low,optimal/high,stable/mid,Solar Storm,0,1,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+138,critical/low,stable/mid,critical/low,optimal/high,stable/mid,Asteroid Impact,0,1,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+139,critical/low,stable/mid,critical/low,optimal/high,stable/mid,Safe Zone,0,1,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+140,critical/low,stable/mid,critical/low,optimal/high,optimal/high,Normal,0,1,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+141,critical/low,stable/mid,critical/low,optimal/high,optimal/high,Solar Storm,0,1,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+142,critical/low,stable/mid,critical/low,optimal/high,optimal/high,Asteroid Impact,0,1,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+143,critical/low,stable/mid,critical/low,optimal/high,optimal/high,Safe Zone,0,1,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+144,critical/low,stable/mid,stable/mid,critical/low,critical/low,Normal,0,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+145,critical/low,stable/mid,stable/mid,critical/low,critical/low,Solar Storm,0,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+146,critical/low,stable/mid,stable/mid,critical/low,critical/low,Asteroid Impact,0,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+147,critical/low,stable/mid,stable/mid,critical/low,critical/low,Safe Zone,0,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+148,critical/low,stable/mid,stable/mid,critical/low,stable/mid,Normal,0,1,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+149,critical/low,stable/mid,stable/mid,critical/low,stable/mid,Solar Storm,0,1,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+150,critical/low,stable/mid,stable/mid,critical/low,stable/mid,Asteroid Impact,0,1,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+151,critical/low,stable/mid,stable/mid,critical/low,stable/mid,Safe Zone,0,1,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+152,critical/low,stable/mid,stable/mid,critical/low,optimal/high,Normal,0,1,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+153,critical/low,stable/mid,stable/mid,critical/low,optimal/high,Solar Storm,0,1,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+154,critical/low,stable/mid,stable/mid,critical/low,optimal/high,Asteroid Impact,0,1,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+155,critical/low,stable/mid,stable/mid,critical/low,optimal/high,Safe Zone,0,1,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+156,critical/low,stable/mid,stable/mid,stable/mid,critical/low,Normal,0,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+157,critical/low,stable/mid,stable/mid,stable/mid,critical/low,Solar Storm,0,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+158,critical/low,stable/mid,stable/mid,stable/mid,critical/low,Asteroid Impact,0,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+159,critical/low,stable/mid,stable/mid,stable/mid,critical/low,Safe Zone,0,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+160,critical/low,stable/mid,stable/mid,stable/mid,stable/mid,Normal,0,1,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+161,critical/low,stable/mid,stable/mid,stable/mid,stable/mid,Solar Storm,0,1,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+162,critical/low,stable/mid,stable/mid,stable/mid,stable/mid,Asteroid Impact,0,1,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+163,critical/low,stable/mid,stable/mid,stable/mid,stable/mid,Safe Zone,0,1,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+164,critical/low,stable/mid,stable/mid,stable/mid,optimal/high,Normal,0,1,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+165,critical/low,stable/mid,stable/mid,stable/mid,optimal/high,Solar Storm,0,1,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+166,critical/low,stable/mid,stable/mid,stable/mid,optimal/high,Asteroid Impact,0,1,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+167,critical/low,stable/mid,stable/mid,stable/mid,optimal/high,Safe Zone,0,1,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+168,critical/low,stable/mid,stable/mid,optimal/high,critical/low,Normal,0,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+169,critical/low,stable/mid,stable/mid,optimal/high,critical/low,Solar Storm,0,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+170,critical/low,stable/mid,stable/mid,optimal/high,critical/low,Asteroid Impact,0,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+171,critical/low,stable/mid,stable/mid,optimal/high,critical/low,Safe Zone,0,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+172,critical/low,stable/mid,stable/mid,optimal/high,stable/mid,Normal,0,1,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+173,critical/low,stable/mid,stable/mid,optimal/high,stable/mid,Solar Storm,0,1,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+174,critical/low,stable/mid,stable/mid,optimal/high,stable/mid,Asteroid Impact,0,1,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+175,critical/low,stable/mid,stable/mid,optimal/high,stable/mid,Safe Zone,0,1,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+176,critical/low,stable/mid,stable/mid,optimal/high,optimal/high,Normal,0,1,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+177,critical/low,stable/mid,stable/mid,optimal/high,optimal/high,Solar Storm,0,1,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+178,critical/low,stable/mid,stable/mid,optimal/high,optimal/high,Asteroid Impact,0,1,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+179,critical/low,stable/mid,stable/mid,optimal/high,optimal/high,Safe Zone,0,1,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+180,critical/low,stable/mid,optimal/high,critical/low,critical/low,Normal,0,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+181,critical/low,stable/mid,optimal/high,critical/low,critical/low,Solar Storm,0,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+182,critical/low,stable/mid,optimal/high,critical/low,critical/low,Asteroid Impact,0,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+183,critical/low,stable/mid,optimal/high,critical/low,critical/low,Safe Zone,0,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+184,critical/low,stable/mid,optimal/high,critical/low,stable/mid,Normal,0,1,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+185,critical/low,stable/mid,optimal/high,critical/low,stable/mid,Solar Storm,0,1,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+186,critical/low,stable/mid,optimal/high,critical/low,stable/mid,Asteroid Impact,0,1,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+187,critical/low,stable/mid,optimal/high,critical/low,stable/mid,Safe Zone,0,1,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+188,critical/low,stable/mid,optimal/high,critical/low,optimal/high,Normal,0,1,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+189,critical/low,stable/mid,optimal/high,critical/low,optimal/high,Solar Storm,0,1,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+190,critical/low,stable/mid,optimal/high,critical/low,optimal/high,Asteroid Impact,0,1,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+191,critical/low,stable/mid,optimal/high,critical/low,optimal/high,Safe Zone,0,1,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+192,critical/low,stable/mid,optimal/high,stable/mid,critical/low,Normal,0,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+193,critical/low,stable/mid,optimal/high,stable/mid,critical/low,Solar Storm,0,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+194,critical/low,stable/mid,optimal/high,stable/mid,critical/low,Asteroid Impact,0,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+195,critical/low,stable/mid,optimal/high,stable/mid,critical/low,Safe Zone,0,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+196,critical/low,stable/mid,optimal/high,stable/mid,stable/mid,Normal,0,1,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+197,critical/low,stable/mid,optimal/high,stable/mid,stable/mid,Solar Storm,0,1,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+198,critical/low,stable/mid,optimal/high,stable/mid,stable/mid,Asteroid Impact,0,1,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+199,critical/low,stable/mid,optimal/high,stable/mid,stable/mid,Safe Zone,0,1,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+200,critical/low,stable/mid,optimal/high,stable/mid,optimal/high,Normal,0,1,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+201,critical/low,stable/mid,optimal/high,stable/mid,optimal/high,Solar Storm,0,1,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+202,critical/low,stable/mid,optimal/high,stable/mid,optimal/high,Asteroid Impact,0,1,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+203,critical/low,stable/mid,optimal/high,stable/mid,optimal/high,Safe Zone,0,1,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+204,critical/low,stable/mid,optimal/high,optimal/high,critical/low,Normal,0,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+205,critical/low,stable/mid,optimal/high,optimal/high,critical/low,Solar Storm,0,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+206,critical/low,stable/mid,optimal/high,optimal/high,critical/low,Asteroid Impact,0,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+207,critical/low,stable/mid,optimal/high,optimal/high,critical/low,Safe Zone,0,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+208,critical/low,stable/mid,optimal/high,optimal/high,stable/mid,Normal,0,1,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+209,critical/low,stable/mid,optimal/high,optimal/high,stable/mid,Solar Storm,0,1,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+210,critical/low,stable/mid,optimal/high,optimal/high,stable/mid,Asteroid Impact,0,1,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+211,critical/low,stable/mid,optimal/high,optimal/high,stable/mid,Safe Zone,0,1,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+212,critical/low,stable/mid,optimal/high,optimal/high,optimal/high,Normal,0,1,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+213,critical/low,stable/mid,optimal/high,optimal/high,optimal/high,Solar Storm,0,1,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+214,critical/low,stable/mid,optimal/high,optimal/high,optimal/high,Asteroid Impact,0,1,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+215,critical/low,stable/mid,optimal/high,optimal/high,optimal/high,Safe Zone,0,1,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+216,critical/low,optimal/high,critical/low,critical/low,critical/low,Normal,0,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+217,critical/low,optimal/high,critical/low,critical/low,critical/low,Solar Storm,0,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+218,critical/low,optimal/high,critical/low,critical/low,critical/low,Asteroid Impact,0,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+219,critical/low,optimal/high,critical/low,critical/low,critical/low,Safe Zone,0,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+220,critical/low,optimal/high,critical/low,critical/low,stable/mid,Normal,0,2,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+221,critical/low,optimal/high,critical/low,critical/low,stable/mid,Solar Storm,0,2,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+222,critical/low,optimal/high,critical/low,critical/low,stable/mid,Asteroid Impact,0,2,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+223,critical/low,optimal/high,critical/low,critical/low,stable/mid,Safe Zone,0,2,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+224,critical/low,optimal/high,critical/low,critical/low,optimal/high,Normal,0,2,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+225,critical/low,optimal/high,critical/low,critical/low,optimal/high,Solar Storm,0,2,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+226,critical/low,optimal/high,critical/low,critical/low,optimal/high,Asteroid Impact,0,2,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+227,critical/low,optimal/high,critical/low,critical/low,optimal/high,Safe Zone,0,2,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+228,critical/low,optimal/high,critical/low,stable/mid,critical/low,Normal,0,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+229,critical/low,optimal/high,critical/low,stable/mid,critical/low,Solar Storm,0,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+230,critical/low,optimal/high,critical/low,stable/mid,critical/low,Asteroid Impact,0,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+231,critical/low,optimal/high,critical/low,stable/mid,critical/low,Safe Zone,0,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+232,critical/low,optimal/high,critical/low,stable/mid,stable/mid,Normal,0,2,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+233,critical/low,optimal/high,critical/low,stable/mid,stable/mid,Solar Storm,0,2,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+234,critical/low,optimal/high,critical/low,stable/mid,stable/mid,Asteroid Impact,0,2,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+235,critical/low,optimal/high,critical/low,stable/mid,stable/mid,Safe Zone,0,2,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+236,critical/low,optimal/high,critical/low,stable/mid,optimal/high,Normal,0,2,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+237,critical/low,optimal/high,critical/low,stable/mid,optimal/high,Solar Storm,0,2,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+238,critical/low,optimal/high,critical/low,stable/mid,optimal/high,Asteroid Impact,0,2,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+239,critical/low,optimal/high,critical/low,stable/mid,optimal/high,Safe Zone,0,2,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+240,critical/low,optimal/high,critical/low,optimal/high,critical/low,Normal,0,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+241,critical/low,optimal/high,critical/low,optimal/high,critical/low,Solar Storm,0,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+242,critical/low,optimal/high,critical/low,optimal/high,critical/low,Asteroid Impact,0,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+243,critical/low,optimal/high,critical/low,optimal/high,critical/low,Safe Zone,0,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+244,critical/low,optimal/high,critical/low,optimal/high,stable/mid,Normal,0,2,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+245,critical/low,optimal/high,critical/low,optimal/high,stable/mid,Solar Storm,0,2,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+246,critical/low,optimal/high,critical/low,optimal/high,stable/mid,Asteroid Impact,0,2,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+247,critical/low,optimal/high,critical/low,optimal/high,stable/mid,Safe Zone,0,2,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+248,critical/low,optimal/high,critical/low,optimal/high,optimal/high,Normal,0,2,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+249,critical/low,optimal/high,critical/low,optimal/high,optimal/high,Solar Storm,0,2,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+250,critical/low,optimal/high,critical/low,optimal/high,optimal/high,Asteroid Impact,0,2,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+251,critical/low,optimal/high,critical/low,optimal/high,optimal/high,Safe Zone,0,2,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+252,critical/low,optimal/high,stable/mid,critical/low,critical/low,Normal,0,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+253,critical/low,optimal/high,stable/mid,critical/low,critical/low,Solar Storm,0,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+254,critical/low,optimal/high,stable/mid,critical/low,critical/low,Asteroid Impact,0,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+255,critical/low,optimal/high,stable/mid,critical/low,critical/low,Safe Zone,0,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+256,critical/low,optimal/high,stable/mid,critical/low,stable/mid,Normal,0,2,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+257,critical/low,optimal/high,stable/mid,critical/low,stable/mid,Solar Storm,0,2,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+258,critical/low,optimal/high,stable/mid,critical/low,stable/mid,Asteroid Impact,0,2,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+259,critical/low,optimal/high,stable/mid,critical/low,stable/mid,Safe Zone,0,2,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+260,critical/low,optimal/high,stable/mid,critical/low,optimal/high,Normal,0,2,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+261,critical/low,optimal/high,stable/mid,critical/low,optimal/high,Solar Storm,0,2,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+262,critical/low,optimal/high,stable/mid,critical/low,optimal/high,Asteroid Impact,0,2,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+263,critical/low,optimal/high,stable/mid,critical/low,optimal/high,Safe Zone,0,2,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+264,critical/low,optimal/high,stable/mid,stable/mid,critical/low,Normal,0,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+265,critical/low,optimal/high,stable/mid,stable/mid,critical/low,Solar Storm,0,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+266,critical/low,optimal/high,stable/mid,stable/mid,critical/low,Asteroid Impact,0,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+267,critical/low,optimal/high,stable/mid,stable/mid,critical/low,Safe Zone,0,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+268,critical/low,optimal/high,stable/mid,stable/mid,stable/mid,Normal,0,2,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+269,critical/low,optimal/high,stable/mid,stable/mid,stable/mid,Solar Storm,0,2,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+270,critical/low,optimal/high,stable/mid,stable/mid,stable/mid,Asteroid Impact,0,2,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+271,critical/low,optimal/high,stable/mid,stable/mid,stable/mid,Safe Zone,0,2,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+272,critical/low,optimal/high,stable/mid,stable/mid,optimal/high,Normal,0,2,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+273,critical/low,optimal/high,stable/mid,stable/mid,optimal/high,Solar Storm,0,2,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+274,critical/low,optimal/high,stable/mid,stable/mid,optimal/high,Asteroid Impact,0,2,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+275,critical/low,optimal/high,stable/mid,stable/mid,optimal/high,Safe Zone,0,2,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+276,critical/low,optimal/high,stable/mid,optimal/high,critical/low,Normal,0,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+277,critical/low,optimal/high,stable/mid,optimal/high,critical/low,Solar Storm,0,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+278,critical/low,optimal/high,stable/mid,optimal/high,critical/low,Asteroid Impact,0,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+279,critical/low,optimal/high,stable/mid,optimal/high,critical/low,Safe Zone,0,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+280,critical/low,optimal/high,stable/mid,optimal/high,stable/mid,Normal,0,2,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+281,critical/low,optimal/high,stable/mid,optimal/high,stable/mid,Solar Storm,0,2,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+282,critical/low,optimal/high,stable/mid,optimal/high,stable/mid,Asteroid Impact,0,2,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+283,critical/low,optimal/high,stable/mid,optimal/high,stable/mid,Safe Zone,0,2,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+284,critical/low,optimal/high,stable/mid,optimal/high,optimal/high,Normal,0,2,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+285,critical/low,optimal/high,stable/mid,optimal/high,optimal/high,Solar Storm,0,2,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+286,critical/low,optimal/high,stable/mid,optimal/high,optimal/high,Asteroid Impact,0,2,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+287,critical/low,optimal/high,stable/mid,optimal/high,optimal/high,Safe Zone,0,2,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+288,critical/low,optimal/high,optimal/high,critical/low,critical/low,Normal,0,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+289,critical/low,optimal/high,optimal/high,critical/low,critical/low,Solar Storm,0,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+290,critical/low,optimal/high,optimal/high,critical/low,critical/low,Asteroid Impact,0,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+291,critical/low,optimal/high,optimal/high,critical/low,critical/low,Safe Zone,0,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+292,critical/low,optimal/high,optimal/high,critical/low,stable/mid,Normal,0,2,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+293,critical/low,optimal/high,optimal/high,critical/low,stable/mid,Solar Storm,0,2,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+294,critical/low,optimal/high,optimal/high,critical/low,stable/mid,Asteroid Impact,0,2,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+295,critical/low,optimal/high,optimal/high,critical/low,stable/mid,Safe Zone,0,2,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+296,critical/low,optimal/high,optimal/high,critical/low,optimal/high,Normal,0,2,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+297,critical/low,optimal/high,optimal/high,critical/low,optimal/high,Solar Storm,0,2,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+298,critical/low,optimal/high,optimal/high,critical/low,optimal/high,Asteroid Impact,0,2,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+299,critical/low,optimal/high,optimal/high,critical/low,optimal/high,Safe Zone,0,2,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+300,critical/low,optimal/high,optimal/high,stable/mid,critical/low,Normal,0,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+301,critical/low,optimal/high,optimal/high,stable/mid,critical/low,Solar Storm,0,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+302,critical/low,optimal/high,optimal/high,stable/mid,critical/low,Asteroid Impact,0,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+303,critical/low,optimal/high,optimal/high,stable/mid,critical/low,Safe Zone,0,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+304,critical/low,optimal/high,optimal/high,stable/mid,stable/mid,Normal,0,2,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+305,critical/low,optimal/high,optimal/high,stable/mid,stable/mid,Solar Storm,0,2,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+306,critical/low,optimal/high,optimal/high,stable/mid,stable/mid,Asteroid Impact,0,2,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+307,critical/low,optimal/high,optimal/high,stable/mid,stable/mid,Safe Zone,0,2,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+308,critical/low,optimal/high,optimal/high,stable/mid,optimal/high,Normal,0,2,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+309,critical/low,optimal/high,optimal/high,stable/mid,optimal/high,Solar Storm,0,2,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+310,critical/low,optimal/high,optimal/high,stable/mid,optimal/high,Asteroid Impact,0,2,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+311,critical/low,optimal/high,optimal/high,stable/mid,optimal/high,Safe Zone,0,2,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+312,critical/low,optimal/high,optimal/high,optimal/high,critical/low,Normal,0,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+313,critical/low,optimal/high,optimal/high,optimal/high,critical/low,Solar Storm,0,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+314,critical/low,optimal/high,optimal/high,optimal/high,critical/low,Asteroid Impact,0,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+315,critical/low,optimal/high,optimal/high,optimal/high,critical/low,Safe Zone,0,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+316,critical/low,optimal/high,optimal/high,optimal/high,stable/mid,Normal,0,2,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+317,critical/low,optimal/high,optimal/high,optimal/high,stable/mid,Solar Storm,0,2,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+318,critical/low,optimal/high,optimal/high,optimal/high,stable/mid,Asteroid Impact,0,2,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+319,critical/low,optimal/high,optimal/high,optimal/high,stable/mid,Safe Zone,0,2,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+320,critical/low,optimal/high,optimal/high,optimal/high,optimal/high,Normal,0,2,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+321,critical/low,optimal/high,optimal/high,optimal/high,optimal/high,Solar Storm,0,2,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+322,critical/low,optimal/high,optimal/high,optimal/high,optimal/high,Asteroid Impact,0,2,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+323,critical/low,optimal/high,optimal/high,optimal/high,optimal/high,Safe Zone,0,2,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+324,stable/mid,critical/low,critical/low,critical/low,critical/low,Normal,1,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+325,stable/mid,critical/low,critical/low,critical/low,critical/low,Solar Storm,1,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+326,stable/mid,critical/low,critical/low,critical/low,critical/low,Asteroid Impact,1,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+327,stable/mid,critical/low,critical/low,critical/low,critical/low,Safe Zone,1,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+328,stable/mid,critical/low,critical/low,critical/low,stable/mid,Normal,1,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+329,stable/mid,critical/low,critical/low,critical/low,stable/mid,Solar Storm,1,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+330,stable/mid,critical/low,critical/low,critical/low,stable/mid,Asteroid Impact,1,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+331,stable/mid,critical/low,critical/low,critical/low,stable/mid,Safe Zone,1,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+332,stable/mid,critical/low,critical/low,critical/low,optimal/high,Normal,1,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+333,stable/mid,critical/low,critical/low,critical/low,optimal/high,Solar Storm,1,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+334,stable/mid,critical/low,critical/low,critical/low,optimal/high,Asteroid Impact,1,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+335,stable/mid,critical/low,critical/low,critical/low,optimal/high,Safe Zone,1,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+336,stable/mid,critical/low,critical/low,stable/mid,critical/low,Normal,1,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+337,stable/mid,critical/low,critical/low,stable/mid,critical/low,Solar Storm,1,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+338,stable/mid,critical/low,critical/low,stable/mid,critical/low,Asteroid Impact,1,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+339,stable/mid,critical/low,critical/low,stable/mid,critical/low,Safe Zone,1,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+340,stable/mid,critical/low,critical/low,stable/mid,stable/mid,Normal,1,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+341,stable/mid,critical/low,critical/low,stable/mid,stable/mid,Solar Storm,1,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+342,stable/mid,critical/low,critical/low,stable/mid,stable/mid,Asteroid Impact,1,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+343,stable/mid,critical/low,critical/low,stable/mid,stable/mid,Safe Zone,1,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+344,stable/mid,critical/low,critical/low,stable/mid,optimal/high,Normal,1,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+345,stable/mid,critical/low,critical/low,stable/mid,optimal/high,Solar Storm,1,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+346,stable/mid,critical/low,critical/low,stable/mid,optimal/high,Asteroid Impact,1,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+347,stable/mid,critical/low,critical/low,stable/mid,optimal/high,Safe Zone,1,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+348,stable/mid,critical/low,critical/low,optimal/high,critical/low,Normal,1,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+349,stable/mid,critical/low,critical/low,optimal/high,critical/low,Solar Storm,1,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+350,stable/mid,critical/low,critical/low,optimal/high,critical/low,Asteroid Impact,1,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+351,stable/mid,critical/low,critical/low,optimal/high,critical/low,Safe Zone,1,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+352,stable/mid,critical/low,critical/low,optimal/high,stable/mid,Normal,1,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+353,stable/mid,critical/low,critical/low,optimal/high,stable/mid,Solar Storm,1,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+354,stable/mid,critical/low,critical/low,optimal/high,stable/mid,Asteroid Impact,1,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+355,stable/mid,critical/low,critical/low,optimal/high,stable/mid,Safe Zone,1,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+356,stable/mid,critical/low,critical/low,optimal/high,optimal/high,Normal,1,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+357,stable/mid,critical/low,critical/low,optimal/high,optimal/high,Solar Storm,1,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+358,stable/mid,critical/low,critical/low,optimal/high,optimal/high,Asteroid Impact,1,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+359,stable/mid,critical/low,critical/low,optimal/high,optimal/high,Safe Zone,1,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+360,stable/mid,critical/low,stable/mid,critical/low,critical/low,Normal,1,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+361,stable/mid,critical/low,stable/mid,critical/low,critical/low,Solar Storm,1,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+362,stable/mid,critical/low,stable/mid,critical/low,critical/low,Asteroid Impact,1,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+363,stable/mid,critical/low,stable/mid,critical/low,critical/low,Safe Zone,1,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+364,stable/mid,critical/low,stable/mid,critical/low,stable/mid,Normal,1,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+365,stable/mid,critical/low,stable/mid,critical/low,stable/mid,Solar Storm,1,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+366,stable/mid,critical/low,stable/mid,critical/low,stable/mid,Asteroid Impact,1,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+367,stable/mid,critical/low,stable/mid,critical/low,stable/mid,Safe Zone,1,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+368,stable/mid,critical/low,stable/mid,critical/low,optimal/high,Normal,1,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+369,stable/mid,critical/low,stable/mid,critical/low,optimal/high,Solar Storm,1,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+370,stable/mid,critical/low,stable/mid,critical/low,optimal/high,Asteroid Impact,1,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+371,stable/mid,critical/low,stable/mid,critical/low,optimal/high,Safe Zone,1,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+372,stable/mid,critical/low,stable/mid,stable/mid,critical/low,Normal,1,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+373,stable/mid,critical/low,stable/mid,stable/mid,critical/low,Solar Storm,1,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+374,stable/mid,critical/low,stable/mid,stable/mid,critical/low,Asteroid Impact,1,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+375,stable/mid,critical/low,stable/mid,stable/mid,critical/low,Safe Zone,1,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+376,stable/mid,critical/low,stable/mid,stable/mid,stable/mid,Normal,1,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+377,stable/mid,critical/low,stable/mid,stable/mid,stable/mid,Solar Storm,1,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+378,stable/mid,critical/low,stable/mid,stable/mid,stable/mid,Asteroid Impact,1,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+379,stable/mid,critical/low,stable/mid,stable/mid,stable/mid,Safe Zone,1,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+380,stable/mid,critical/low,stable/mid,stable/mid,optimal/high,Normal,1,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+381,stable/mid,critical/low,stable/mid,stable/mid,optimal/high,Solar Storm,1,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+382,stable/mid,critical/low,stable/mid,stable/mid,optimal/high,Asteroid Impact,1,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+383,stable/mid,critical/low,stable/mid,stable/mid,optimal/high,Safe Zone,1,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+384,stable/mid,critical/low,stable/mid,optimal/high,critical/low,Normal,1,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+385,stable/mid,critical/low,stable/mid,optimal/high,critical/low,Solar Storm,1,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+386,stable/mid,critical/low,stable/mid,optimal/high,critical/low,Asteroid Impact,1,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+387,stable/mid,critical/low,stable/mid,optimal/high,critical/low,Safe Zone,1,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+388,stable/mid,critical/low,stable/mid,optimal/high,stable/mid,Normal,1,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+389,stable/mid,critical/low,stable/mid,optimal/high,stable/mid,Solar Storm,1,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+390,stable/mid,critical/low,stable/mid,optimal/high,stable/mid,Asteroid Impact,1,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+391,stable/mid,critical/low,stable/mid,optimal/high,stable/mid,Safe Zone,1,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+392,stable/mid,critical/low,stable/mid,optimal/high,optimal/high,Normal,1,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+393,stable/mid,critical/low,stable/mid,optimal/high,optimal/high,Solar Storm,1,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+394,stable/mid,critical/low,stable/mid,optimal/high,optimal/high,Asteroid Impact,1,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+395,stable/mid,critical/low,stable/mid,optimal/high,optimal/high,Safe Zone,1,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+396,stable/mid,critical/low,optimal/high,critical/low,critical/low,Normal,1,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+397,stable/mid,critical/low,optimal/high,critical/low,critical/low,Solar Storm,1,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+398,stable/mid,critical/low,optimal/high,critical/low,critical/low,Asteroid Impact,1,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+399,stable/mid,critical/low,optimal/high,critical/low,critical/low,Safe Zone,1,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+400,stable/mid,critical/low,optimal/high,critical/low,stable/mid,Normal,1,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+401,stable/mid,critical/low,optimal/high,critical/low,stable/mid,Solar Storm,1,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+402,stable/mid,critical/low,optimal/high,critical/low,stable/mid,Asteroid Impact,1,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+403,stable/mid,critical/low,optimal/high,critical/low,stable/mid,Safe Zone,1,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+404,stable/mid,critical/low,optimal/high,critical/low,optimal/high,Normal,1,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+405,stable/mid,critical/low,optimal/high,critical/low,optimal/high,Solar Storm,1,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+406,stable/mid,critical/low,optimal/high,critical/low,optimal/high,Asteroid Impact,1,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+407,stable/mid,critical/low,optimal/high,critical/low,optimal/high,Safe Zone,1,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+408,stable/mid,critical/low,optimal/high,stable/mid,critical/low,Normal,1,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+409,stable/mid,critical/low,optimal/high,stable/mid,critical/low,Solar Storm,1,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+410,stable/mid,critical/low,optimal/high,stable/mid,critical/low,Asteroid Impact,1,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+411,stable/mid,critical/low,optimal/high,stable/mid,critical/low,Safe Zone,1,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+412,stable/mid,critical/low,optimal/high,stable/mid,stable/mid,Normal,1,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+413,stable/mid,critical/low,optimal/high,stable/mid,stable/mid,Solar Storm,1,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+414,stable/mid,critical/low,optimal/high,stable/mid,stable/mid,Asteroid Impact,1,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+415,stable/mid,critical/low,optimal/high,stable/mid,stable/mid,Safe Zone,1,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+416,stable/mid,critical/low,optimal/high,stable/mid,optimal/high,Normal,1,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+417,stable/mid,critical/low,optimal/high,stable/mid,optimal/high,Solar Storm,1,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+418,stable/mid,critical/low,optimal/high,stable/mid,optimal/high,Asteroid Impact,1,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+419,stable/mid,critical/low,optimal/high,stable/mid,optimal/high,Safe Zone,1,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+420,stable/mid,critical/low,optimal/high,optimal/high,critical/low,Normal,1,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+421,stable/mid,critical/low,optimal/high,optimal/high,critical/low,Solar Storm,1,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+422,stable/mid,critical/low,optimal/high,optimal/high,critical/low,Asteroid Impact,1,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+423,stable/mid,critical/low,optimal/high,optimal/high,critical/low,Safe Zone,1,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+424,stable/mid,critical/low,optimal/high,optimal/high,stable/mid,Normal,1,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+425,stable/mid,critical/low,optimal/high,optimal/high,stable/mid,Solar Storm,1,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+426,stable/mid,critical/low,optimal/high,optimal/high,stable/mid,Asteroid Impact,1,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+427,stable/mid,critical/low,optimal/high,optimal/high,stable/mid,Safe Zone,1,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+428,stable/mid,critical/low,optimal/high,optimal/high,optimal/high,Normal,1,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+429,stable/mid,critical/low,optimal/high,optimal/high,optimal/high,Solar Storm,1,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+430,stable/mid,critical/low,optimal/high,optimal/high,optimal/high,Asteroid Impact,1,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+431,stable/mid,critical/low,optimal/high,optimal/high,optimal/high,Safe Zone,1,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+432,stable/mid,stable/mid,critical/low,critical/low,critical/low,Normal,1,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+433,stable/mid,stable/mid,critical/low,critical/low,critical/low,Solar Storm,1,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+434,stable/mid,stable/mid,critical/low,critical/low,critical/low,Asteroid Impact,1,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+435,stable/mid,stable/mid,critical/low,critical/low,critical/low,Safe Zone,1,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+436,stable/mid,stable/mid,critical/low,critical/low,stable/mid,Normal,1,1,0,0,1,0.3333,2.0,WARNING,Move to Safe Zone,2.959,True
+437,stable/mid,stable/mid,critical/low,critical/low,stable/mid,Solar Storm,1,1,0,0,1,0.3333,2.0,WARNING,Move to Safe Zone,0.0,True
+438,stable/mid,stable/mid,critical/low,critical/low,stable/mid,Asteroid Impact,1,1,0,0,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+439,stable/mid,stable/mid,critical/low,critical/low,stable/mid,Safe Zone,1,1,0,0,1,0.3333,2.0,WARNING,Gather Resources,1.776,True
+440,stable/mid,stable/mid,critical/low,critical/low,optimal/high,Normal,1,1,0,0,2,0.3333,2.0,WARNING,Life Support,0.0,True
+441,stable/mid,stable/mid,critical/low,critical/low,optimal/high,Solar Storm,1,1,0,0,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+442,stable/mid,stable/mid,critical/low,critical/low,optimal/high,Asteroid Impact,1,1,0,0,2,0.3333,2.0,WARNING,Life Support,0.0,True
+443,stable/mid,stable/mid,critical/low,critical/low,optimal/high,Safe Zone,1,1,0,0,2,0.3333,2.0,WARNING,Life Support,1.291,True
+444,stable/mid,stable/mid,critical/low,stable/mid,critical/low,Normal,1,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+445,stable/mid,stable/mid,critical/low,stable/mid,critical/low,Solar Storm,1,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+446,stable/mid,stable/mid,critical/low,stable/mid,critical/low,Asteroid Impact,1,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+447,stable/mid,stable/mid,critical/low,stable/mid,critical/low,Safe Zone,1,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+448,stable/mid,stable/mid,critical/low,stable/mid,stable/mid,Normal,1,1,0,1,1,0.3333,2.0,WARNING,Power Saving,-0.475,True
+449,stable/mid,stable/mid,critical/low,stable/mid,stable/mid,Solar Storm,1,1,0,1,1,0.3333,2.0,WARNING,Repair Ship,0.0,True
+450,stable/mid,stable/mid,critical/low,stable/mid,stable/mid,Asteroid Impact,1,1,0,1,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+451,stable/mid,stable/mid,critical/low,stable/mid,stable/mid,Safe Zone,1,1,0,1,1,0.3333,2.0,WARNING,Life Support,2.574,True
+452,stable/mid,stable/mid,critical/low,stable/mid,optimal/high,Normal,1,1,0,1,2,0.3333,2.0,WARNING,Gather Resources,2.341,True
+453,stable/mid,stable/mid,critical/low,stable/mid,optimal/high,Solar Storm,1,1,0,1,2,0.3333,2.0,WARNING,Gather Resources,0.0,True
+454,stable/mid,stable/mid,critical/low,stable/mid,optimal/high,Asteroid Impact,1,1,0,1,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+455,stable/mid,stable/mid,critical/low,stable/mid,optimal/high,Safe Zone,1,1,0,1,2,0.3333,2.0,WARNING,Life Support,0.0,True
+456,stable/mid,stable/mid,critical/low,optimal/high,critical/low,Normal,1,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+457,stable/mid,stable/mid,critical/low,optimal/high,critical/low,Solar Storm,1,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+458,stable/mid,stable/mid,critical/low,optimal/high,critical/low,Asteroid Impact,1,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+459,stable/mid,stable/mid,critical/low,optimal/high,critical/low,Safe Zone,1,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+460,stable/mid,stable/mid,critical/low,optimal/high,stable/mid,Normal,1,1,0,2,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+461,stable/mid,stable/mid,critical/low,optimal/high,stable/mid,Solar Storm,1,1,0,2,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+462,stable/mid,stable/mid,critical/low,optimal/high,stable/mid,Asteroid Impact,1,1,0,2,1,0.3333,2.0,WARNING,Life Support,0.0,True
+463,stable/mid,stable/mid,critical/low,optimal/high,stable/mid,Safe Zone,1,1,0,2,1,0.3333,2.0,WARNING,Life Support,0.0,True
+464,stable/mid,stable/mid,critical/low,optimal/high,optimal/high,Normal,1,1,0,2,2,0.3333,2.0,WARNING,Gather Resources,0.0,True
+465,stable/mid,stable/mid,critical/low,optimal/high,optimal/high,Solar Storm,1,1,0,2,2,0.3333,2.0,WARNING,Life Support,0.0,True
+466,stable/mid,stable/mid,critical/low,optimal/high,optimal/high,Asteroid Impact,1,1,0,2,2,0.3333,2.0,WARNING,Life Support,0.0,True
+467,stable/mid,stable/mid,critical/low,optimal/high,optimal/high,Safe Zone,1,1,0,2,2,0.3333,2.0,WARNING,Life Support,5.988,True
+468,stable/mid,stable/mid,stable/mid,critical/low,critical/low,Normal,1,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+469,stable/mid,stable/mid,stable/mid,critical/low,critical/low,Solar Storm,1,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+470,stable/mid,stable/mid,stable/mid,critical/low,critical/low,Asteroid Impact,1,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+471,stable/mid,stable/mid,stable/mid,critical/low,critical/low,Safe Zone,1,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+472,stable/mid,stable/mid,stable/mid,critical/low,stable/mid,Normal,1,1,1,0,1,0.3333,2.0,WARNING,Move to Safe Zone,19.66,True
+473,stable/mid,stable/mid,stable/mid,critical/low,stable/mid,Solar Storm,1,1,1,0,1,0.3333,2.0,WARNING,Move to Safe Zone,-8.789,True
+474,stable/mid,stable/mid,stable/mid,critical/low,stable/mid,Asteroid Impact,1,1,1,0,1,0.3333,2.0,WARNING,Move to Safe Zone,-34.39,True
+475,stable/mid,stable/mid,stable/mid,critical/low,stable/mid,Safe Zone,1,1,1,0,1,0.3333,2.0,WARNING,Gather Resources,14.0,True
+476,stable/mid,stable/mid,stable/mid,critical/low,optimal/high,Normal,1,1,1,0,2,0.3333,2.0,WARNING,Move to Safe Zone,30.772,True
+477,stable/mid,stable/mid,stable/mid,critical/low,optimal/high,Solar Storm,1,1,1,0,2,0.3333,2.0,WARNING,Power Saving,1.363,True
+478,stable/mid,stable/mid,stable/mid,critical/low,optimal/high,Asteroid Impact,1,1,1,0,2,0.3333,2.0,WARNING,Move to Safe Zone,5.334,True
+479,stable/mid,stable/mid,stable/mid,critical/low,optimal/high,Safe Zone,1,1,1,0,2,0.3333,2.0,WARNING,Gather Resources,19.425,True
+480,stable/mid,stable/mid,stable/mid,stable/mid,critical/low,Normal,1,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+481,stable/mid,stable/mid,stable/mid,stable/mid,critical/low,Solar Storm,1,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+482,stable/mid,stable/mid,stable/mid,stable/mid,critical/low,Asteroid Impact,1,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+483,stable/mid,stable/mid,stable/mid,stable/mid,critical/low,Safe Zone,1,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+484,stable/mid,stable/mid,stable/mid,stable/mid,stable/mid,Normal,1,1,1,1,1,0.6667,1.0,STABLE,Move to Safe Zone,26.743,True
+485,stable/mid,stable/mid,stable/mid,stable/mid,stable/mid,Solar Storm,1,1,1,1,1,0.6667,1.0,STABLE,Power Saving,-0.791,True
+486,stable/mid,stable/mid,stable/mid,stable/mid,stable/mid,Asteroid Impact,1,1,1,1,1,0.6667,1.0,STABLE,Life Support,-27.1,True
+487,stable/mid,stable/mid,stable/mid,stable/mid,stable/mid,Safe Zone,1,1,1,1,1,0.6667,1.0,STABLE,Life Support,21.095,True
+488,stable/mid,stable/mid,stable/mid,stable/mid,optimal/high,Normal,1,1,1,1,2,0.5,1.5,STABLE,Power Saving,46.037,True
+489,stable/mid,stable/mid,stable/mid,stable/mid,optimal/high,Solar Storm,1,1,1,1,2,0.5,1.5,STABLE,Power Saving,19.212,True
+490,stable/mid,stable/mid,stable/mid,stable/mid,optimal/high,Asteroid Impact,1,1,1,1,2,0.5,1.5,STABLE,Power Saving,2.839,True
+491,stable/mid,stable/mid,stable/mid,stable/mid,optimal/high,Safe Zone,1,1,1,1,2,0.5,1.5,STABLE,Life Support,42.949,True
+492,stable/mid,stable/mid,stable/mid,optimal/high,critical/low,Normal,1,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+493,stable/mid,stable/mid,stable/mid,optimal/high,critical/low,Solar Storm,1,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+494,stable/mid,stable/mid,stable/mid,optimal/high,critical/low,Asteroid Impact,1,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+495,stable/mid,stable/mid,stable/mid,optimal/high,critical/low,Safe Zone,1,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+496,stable/mid,stable/mid,stable/mid,optimal/high,stable/mid,Normal,1,1,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,18.153,True
+497,stable/mid,stable/mid,stable/mid,optimal/high,stable/mid,Solar Storm,1,1,1,2,1,0.5,1.5,STABLE,Power Saving,0.126,True
+498,stable/mid,stable/mid,stable/mid,optimal/high,stable/mid,Asteroid Impact,1,1,1,2,1,0.5,1.5,STABLE,Propulsion,-10.0,True
+499,stable/mid,stable/mid,stable/mid,optimal/high,stable/mid,Safe Zone,1,1,1,2,1,0.5,1.5,STABLE,Propulsion,10.485,True
+500,stable/mid,stable/mid,stable/mid,optimal/high,optimal/high,Normal,1,1,1,2,2,0.5,1.5,STABLE,Power Saving,34.0,True
+501,stable/mid,stable/mid,stable/mid,optimal/high,optimal/high,Solar Storm,1,1,1,2,2,0.5,1.5,STABLE,Move to Safe Zone,36.101,True
+502,stable/mid,stable/mid,stable/mid,optimal/high,optimal/high,Asteroid Impact,1,1,1,2,2,0.5,1.5,STABLE,Propulsion,8.739,True
+503,stable/mid,stable/mid,stable/mid,optimal/high,optimal/high,Safe Zone,1,1,1,2,2,0.5,1.5,STABLE,Repair Ship,12.465,True
+504,stable/mid,stable/mid,optimal/high,critical/low,critical/low,Normal,1,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+505,stable/mid,stable/mid,optimal/high,critical/low,critical/low,Solar Storm,1,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+506,stable/mid,stable/mid,optimal/high,critical/low,critical/low,Asteroid Impact,1,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+507,stable/mid,stable/mid,optimal/high,critical/low,critical/low,Safe Zone,1,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+508,stable/mid,stable/mid,optimal/high,critical/low,stable/mid,Normal,1,1,2,0,1,0.3333,2.0,WARNING,Move to Safe Zone,19.626,True
+509,stable/mid,stable/mid,optimal/high,critical/low,stable/mid,Solar Storm,1,1,2,0,1,0.3333,2.0,WARNING,Move to Safe Zone,-9.0,True
+510,stable/mid,stable/mid,optimal/high,critical/low,stable/mid,Asteroid Impact,1,1,2,0,1,0.3333,2.0,WARNING,Repair Ship,-52.17,True
+511,stable/mid,stable/mid,optimal/high,critical/low,stable/mid,Safe Zone,1,1,2,0,1,0.3333,2.0,WARNING,Repair Ship,35.566,True
+512,stable/mid,stable/mid,optimal/high,critical/low,optimal/high,Normal,1,1,2,0,2,0.3333,2.0,WARNING,Move to Safe Zone,48.353,True
+513,stable/mid,stable/mid,optimal/high,critical/low,optimal/high,Solar Storm,1,1,2,0,2,0.3333,2.0,WARNING,Move to Safe Zone,26.787,True
+514,stable/mid,stable/mid,optimal/high,critical/low,optimal/high,Asteroid Impact,1,1,2,0,2,0.3333,2.0,WARNING,Power Saving,1.224,True
+515,stable/mid,stable/mid,optimal/high,critical/low,optimal/high,Safe Zone,1,1,2,0,2,0.3333,2.0,WARNING,Gather Resources,30.099,True
+516,stable/mid,stable/mid,optimal/high,stable/mid,critical/low,Normal,1,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+517,stable/mid,stable/mid,optimal/high,stable/mid,critical/low,Solar Storm,1,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+518,stable/mid,stable/mid,optimal/high,stable/mid,critical/low,Asteroid Impact,1,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+519,stable/mid,stable/mid,optimal/high,stable/mid,critical/low,Safe Zone,1,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+520,stable/mid,stable/mid,optimal/high,stable/mid,stable/mid,Normal,1,1,2,1,1,0.5,1.5,STABLE,Move to Safe Zone,18.383,True
+521,stable/mid,stable/mid,optimal/high,stable/mid,stable/mid,Solar Storm,1,1,2,1,1,0.5,1.5,STABLE,Power Saving,8.209,True
+522,stable/mid,stable/mid,optimal/high,stable/mid,stable/mid,Asteroid Impact,1,1,2,1,1,0.5,1.5,STABLE,Gather Resources,-81.47,True
+523,stable/mid,stable/mid,optimal/high,stable/mid,stable/mid,Safe Zone,1,1,2,1,1,0.5,1.5,STABLE,Gather Resources,24.592,True
+524,stable/mid,stable/mid,optimal/high,stable/mid,optimal/high,Normal,1,1,2,1,2,0.5,1.5,STABLE,Move to Safe Zone,51.424,True
+525,stable/mid,stable/mid,optimal/high,stable/mid,optimal/high,Solar Storm,1,1,2,1,2,0.5,1.5,STABLE,Power Saving,46.493,True
+526,stable/mid,stable/mid,optimal/high,stable/mid,optimal/high,Asteroid Impact,1,1,2,1,2,0.5,1.5,STABLE,Move to Safe Zone,16.143,True
+527,stable/mid,stable/mid,optimal/high,stable/mid,optimal/high,Safe Zone,1,1,2,1,2,0.5,1.5,STABLE,Life Support,57.119,True
+528,stable/mid,stable/mid,optimal/high,optimal/high,critical/low,Normal,1,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+529,stable/mid,stable/mid,optimal/high,optimal/high,critical/low,Solar Storm,1,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+530,stable/mid,stable/mid,optimal/high,optimal/high,critical/low,Asteroid Impact,1,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+531,stable/mid,stable/mid,optimal/high,optimal/high,critical/low,Safe Zone,1,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+532,stable/mid,stable/mid,optimal/high,optimal/high,stable/mid,Normal,1,1,2,2,1,0.5,1.5,STABLE,Move to Safe Zone,24.951,True
+533,stable/mid,stable/mid,optimal/high,optimal/high,stable/mid,Solar Storm,1,1,2,2,1,0.5,1.5,STABLE,Move to Safe Zone,11.63,True
+534,stable/mid,stable/mid,optimal/high,optimal/high,stable/mid,Asteroid Impact,1,1,2,2,1,0.5,1.5,STABLE,Life Support,-87.842,True
+535,stable/mid,stable/mid,optimal/high,optimal/high,stable/mid,Safe Zone,1,1,2,2,1,0.5,1.5,STABLE,Gather Resources,22.334,True
+536,stable/mid,stable/mid,optimal/high,optimal/high,optimal/high,Normal,1,1,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,59.176,True
+537,stable/mid,stable/mid,optimal/high,optimal/high,optimal/high,Solar Storm,1,1,2,2,2,0.5,1.5,STABLE,Power Saving,59.945,True
+538,stable/mid,stable/mid,optimal/high,optimal/high,optimal/high,Asteroid Impact,1,1,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,33.464,True
+539,stable/mid,stable/mid,optimal/high,optimal/high,optimal/high,Safe Zone,1,1,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,56.488,True
+540,stable/mid,optimal/high,critical/low,critical/low,critical/low,Normal,1,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+541,stable/mid,optimal/high,critical/low,critical/low,critical/low,Solar Storm,1,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+542,stable/mid,optimal/high,critical/low,critical/low,critical/low,Asteroid Impact,1,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+543,stable/mid,optimal/high,critical/low,critical/low,critical/low,Safe Zone,1,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+544,stable/mid,optimal/high,critical/low,critical/low,stable/mid,Normal,1,2,0,0,1,0.3333,2.0,WARNING,Power Saving,0.0,True
+545,stable/mid,optimal/high,critical/low,critical/low,stable/mid,Solar Storm,1,2,0,0,1,0.3333,2.0,WARNING,Gather Resources,0.0,True
+546,stable/mid,optimal/high,critical/low,critical/low,stable/mid,Asteroid Impact,1,2,0,0,1,0.3333,2.0,WARNING,Life Support,0.0,True
+547,stable/mid,optimal/high,critical/low,critical/low,stable/mid,Safe Zone,1,2,0,0,1,0.3333,2.0,WARNING,Propulsion,1.992,True
+548,stable/mid,optimal/high,critical/low,critical/low,optimal/high,Normal,1,2,0,0,2,0.3333,2.0,WARNING,Gather Resources,4.569,True
+549,stable/mid,optimal/high,critical/low,critical/low,optimal/high,Solar Storm,1,2,0,0,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+550,stable/mid,optimal/high,critical/low,critical/low,optimal/high,Asteroid Impact,1,2,0,0,2,0.3333,2.0,WARNING,Life Support,0.0,True
+551,stable/mid,optimal/high,critical/low,critical/low,optimal/high,Safe Zone,1,2,0,0,2,0.3333,2.0,WARNING,Life Support,4.046,True
+552,stable/mid,optimal/high,critical/low,stable/mid,critical/low,Normal,1,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+553,stable/mid,optimal/high,critical/low,stable/mid,critical/low,Solar Storm,1,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+554,stable/mid,optimal/high,critical/low,stable/mid,critical/low,Asteroid Impact,1,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+555,stable/mid,optimal/high,critical/low,stable/mid,critical/low,Safe Zone,1,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+556,stable/mid,optimal/high,critical/low,stable/mid,stable/mid,Normal,1,2,0,1,1,0.3333,2.0,WARNING,Power Saving,5.549,True
+557,stable/mid,optimal/high,critical/low,stable/mid,stable/mid,Solar Storm,1,2,0,1,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+558,stable/mid,optimal/high,critical/low,stable/mid,stable/mid,Asteroid Impact,1,2,0,1,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+559,stable/mid,optimal/high,critical/low,stable/mid,stable/mid,Safe Zone,1,2,0,1,1,0.3333,2.0,WARNING,Repair Ship,12.367,True
+560,stable/mid,optimal/high,critical/low,stable/mid,optimal/high,Normal,1,2,0,1,2,0.3333,2.0,WARNING,Move to Safe Zone,11.476,True
+561,stable/mid,optimal/high,critical/low,stable/mid,optimal/high,Solar Storm,1,2,0,1,2,0.3333,2.0,WARNING,Repair Ship,0.0,True
+562,stable/mid,optimal/high,critical/low,stable/mid,optimal/high,Asteroid Impact,1,2,0,1,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+563,stable/mid,optimal/high,critical/low,stable/mid,optimal/high,Safe Zone,1,2,0,1,2,0.3333,2.0,WARNING,Life Support,5.169,True
+564,stable/mid,optimal/high,critical/low,optimal/high,critical/low,Normal,1,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+565,stable/mid,optimal/high,critical/low,optimal/high,critical/low,Solar Storm,1,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+566,stable/mid,optimal/high,critical/low,optimal/high,critical/low,Asteroid Impact,1,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+567,stable/mid,optimal/high,critical/low,optimal/high,critical/low,Safe Zone,1,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+568,stable/mid,optimal/high,critical/low,optimal/high,stable/mid,Normal,1,2,0,2,1,0.3333,2.0,WARNING,Repair Ship,0.0,True
+569,stable/mid,optimal/high,critical/low,optimal/high,stable/mid,Solar Storm,1,2,0,2,1,0.3333,2.0,WARNING,Life Support,0.0,True
+570,stable/mid,optimal/high,critical/low,optimal/high,stable/mid,Asteroid Impact,1,2,0,2,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+571,stable/mid,optimal/high,critical/low,optimal/high,stable/mid,Safe Zone,1,2,0,2,1,0.3333,2.0,WARNING,Life Support,2.446,True
+572,stable/mid,optimal/high,critical/low,optimal/high,optimal/high,Normal,1,2,0,2,2,0.3333,2.0,WARNING,Repair Ship,0.0,True
+573,stable/mid,optimal/high,critical/low,optimal/high,optimal/high,Solar Storm,1,2,0,2,2,0.3333,2.0,WARNING,Life Support,0.0,True
+574,stable/mid,optimal/high,critical/low,optimal/high,optimal/high,Asteroid Impact,1,2,0,2,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+575,stable/mid,optimal/high,critical/low,optimal/high,optimal/high,Safe Zone,1,2,0,2,2,0.3333,2.0,WARNING,Life Support,0.0,True
+576,stable/mid,optimal/high,stable/mid,critical/low,critical/low,Normal,1,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+577,stable/mid,optimal/high,stable/mid,critical/low,critical/low,Solar Storm,1,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+578,stable/mid,optimal/high,stable/mid,critical/low,critical/low,Asteroid Impact,1,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+579,stable/mid,optimal/high,stable/mid,critical/low,critical/low,Safe Zone,1,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+580,stable/mid,optimal/high,stable/mid,critical/low,stable/mid,Normal,1,2,1,0,1,0.3333,2.0,WARNING,Power Saving,12.105,True
+581,stable/mid,optimal/high,stable/mid,critical/low,stable/mid,Solar Storm,1,2,1,0,1,0.3333,2.0,WARNING,Move to Safe Zone,-10.956,True
+582,stable/mid,optimal/high,stable/mid,critical/low,stable/mid,Asteroid Impact,1,2,1,0,1,0.3333,2.0,WARNING,Move to Safe Zone,-52.17,True
+583,stable/mid,optimal/high,stable/mid,critical/low,stable/mid,Safe Zone,1,2,1,0,1,0.3333,2.0,WARNING,Gather Resources,34.376,True
+584,stable/mid,optimal/high,stable/mid,critical/low,optimal/high,Normal,1,2,1,0,2,0.3333,2.0,WARNING,Move to Safe Zone,45.662,True
+585,stable/mid,optimal/high,stable/mid,critical/low,optimal/high,Solar Storm,1,2,1,0,2,0.3333,2.0,WARNING,Move to Safe Zone,24.906,True
+586,stable/mid,optimal/high,stable/mid,critical/low,optimal/high,Asteroid Impact,1,2,1,0,2,0.3333,2.0,WARNING,Gather Resources,5.317,True
+587,stable/mid,optimal/high,stable/mid,critical/low,optimal/high,Safe Zone,1,2,1,0,2,0.3333,2.0,WARNING,Gather Resources,46.798,True
+588,stable/mid,optimal/high,stable/mid,stable/mid,critical/low,Normal,1,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+589,stable/mid,optimal/high,stable/mid,stable/mid,critical/low,Solar Storm,1,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+590,stable/mid,optimal/high,stable/mid,stable/mid,critical/low,Asteroid Impact,1,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+591,stable/mid,optimal/high,stable/mid,stable/mid,critical/low,Safe Zone,1,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+592,stable/mid,optimal/high,stable/mid,stable/mid,stable/mid,Normal,1,2,1,1,1,0.5,1.5,STABLE,Power Saving,19.791,True
+593,stable/mid,optimal/high,stable/mid,stable/mid,stable/mid,Solar Storm,1,2,1,1,1,0.5,1.5,STABLE,Power Saving,-8.595,True
+594,stable/mid,optimal/high,stable/mid,stable/mid,stable/mid,Asteroid Impact,1,2,1,1,1,0.5,1.5,STABLE,Power Saving,-52.17,True
+595,stable/mid,optimal/high,stable/mid,stable/mid,stable/mid,Safe Zone,1,2,1,1,1,0.5,1.5,STABLE,Power Saving,28.023,True
+596,stable/mid,optimal/high,stable/mid,stable/mid,optimal/high,Normal,1,2,1,1,2,0.5,1.5,STABLE,Power Saving,56.724,True
+597,stable/mid,optimal/high,stable/mid,stable/mid,optimal/high,Solar Storm,1,2,1,1,2,0.5,1.5,STABLE,Power Saving,49.383,True
+598,stable/mid,optimal/high,stable/mid,stable/mid,optimal/high,Asteroid Impact,1,2,1,1,2,0.5,1.5,STABLE,Move to Safe Zone,18.967,True
+599,stable/mid,optimal/high,stable/mid,stable/mid,optimal/high,Safe Zone,1,2,1,1,2,0.5,1.5,STABLE,Power Saving,55.1,True
+600,stable/mid,optimal/high,stable/mid,optimal/high,critical/low,Normal,1,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+601,stable/mid,optimal/high,stable/mid,optimal/high,critical/low,Solar Storm,1,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+602,stable/mid,optimal/high,stable/mid,optimal/high,critical/low,Asteroid Impact,1,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+603,stable/mid,optimal/high,stable/mid,optimal/high,critical/low,Safe Zone,1,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+604,stable/mid,optimal/high,stable/mid,optimal/high,stable/mid,Normal,1,2,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,26.676,True
+605,stable/mid,optimal/high,stable/mid,optimal/high,stable/mid,Solar Storm,1,2,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,-5.044,True
+606,stable/mid,optimal/high,stable/mid,optimal/high,stable/mid,Asteroid Impact,1,2,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,-52.17,True
+607,stable/mid,optimal/high,stable/mid,optimal/high,stable/mid,Safe Zone,1,2,1,2,1,0.5,1.5,STABLE,Repair Ship,54.747,True
+608,stable/mid,optimal/high,stable/mid,optimal/high,optimal/high,Normal,1,2,1,2,2,0.5,1.5,STABLE,Move to Safe Zone,58.71,True
+609,stable/mid,optimal/high,stable/mid,optimal/high,optimal/high,Solar Storm,1,2,1,2,2,0.5,1.5,STABLE,Power Saving,53.785,True
+610,stable/mid,optimal/high,stable/mid,optimal/high,optimal/high,Asteroid Impact,1,2,1,2,2,0.5,1.5,STABLE,Propulsion,8.807,True
+611,stable/mid,optimal/high,stable/mid,optimal/high,optimal/high,Safe Zone,1,2,1,2,2,0.5,1.5,STABLE,Move to Safe Zone,52.079,True
+612,stable/mid,optimal/high,optimal/high,critical/low,critical/low,Normal,1,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+613,stable/mid,optimal/high,optimal/high,critical/low,critical/low,Solar Storm,1,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+614,stable/mid,optimal/high,optimal/high,critical/low,critical/low,Asteroid Impact,1,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+615,stable/mid,optimal/high,optimal/high,critical/low,critical/low,Safe Zone,1,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+616,stable/mid,optimal/high,optimal/high,critical/low,stable/mid,Normal,1,2,2,0,1,0.3333,2.0,WARNING,Power Saving,10.667,True
+617,stable/mid,optimal/high,optimal/high,critical/low,stable/mid,Solar Storm,1,2,2,0,1,0.3333,2.0,WARNING,Power Saving,-20.462,True
+618,stable/mid,optimal/high,optimal/high,critical/low,stable/mid,Asteroid Impact,1,2,2,0,1,0.3333,2.0,WARNING,Propulsion,-99.991,True
+619,stable/mid,optimal/high,optimal/high,critical/low,stable/mid,Safe Zone,1,2,2,0,1,0.3333,2.0,WARNING,Repair Ship,41.611,True
+620,stable/mid,optimal/high,optimal/high,critical/low,optimal/high,Normal,1,2,2,0,2,0.3333,2.0,WARNING,Move to Safe Zone,41.376,True
+621,stable/mid,optimal/high,optimal/high,critical/low,optimal/high,Solar Storm,1,2,2,0,2,0.3333,2.0,WARNING,Power Saving,35.702,True
+622,stable/mid,optimal/high,optimal/high,critical/low,optimal/high,Asteroid Impact,1,2,2,0,2,0.3333,2.0,WARNING,Power Saving,13.648,True
+623,stable/mid,optimal/high,optimal/high,critical/low,optimal/high,Safe Zone,1,2,2,0,2,0.3333,2.0,WARNING,Gather Resources,56.747,True
+624,stable/mid,optimal/high,optimal/high,stable/mid,critical/low,Normal,1,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+625,stable/mid,optimal/high,optimal/high,stable/mid,critical/low,Solar Storm,1,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+626,stable/mid,optimal/high,optimal/high,stable/mid,critical/low,Asteroid Impact,1,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+627,stable/mid,optimal/high,optimal/high,stable/mid,critical/low,Safe Zone,1,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+628,stable/mid,optimal/high,optimal/high,stable/mid,stable/mid,Normal,1,2,2,1,1,0.5,1.5,STABLE,Power Saving,28.893,True
+629,stable/mid,optimal/high,optimal/high,stable/mid,stable/mid,Solar Storm,1,2,2,1,1,0.5,1.5,STABLE,Power Saving,-13.609,True
+630,stable/mid,optimal/high,optimal/high,stable/mid,stable/mid,Asteroid Impact,1,2,2,1,1,0.5,1.5,STABLE,Repair Ship,-100.0,True
+631,stable/mid,optimal/high,optimal/high,stable/mid,stable/mid,Safe Zone,1,2,2,1,1,0.5,1.5,STABLE,Repair Ship,59.41,True
+632,stable/mid,optimal/high,optimal/high,stable/mid,optimal/high,Normal,1,2,2,1,2,0.5,1.5,STABLE,Power Saving,58.567,True
+633,stable/mid,optimal/high,optimal/high,stable/mid,optimal/high,Solar Storm,1,2,2,1,2,0.5,1.5,STABLE,Power Saving,50.444,True
+634,stable/mid,optimal/high,optimal/high,stable/mid,optimal/high,Asteroid Impact,1,2,2,1,2,0.5,1.5,STABLE,Power Saving,33.18,True
+635,stable/mid,optimal/high,optimal/high,stable/mid,optimal/high,Safe Zone,1,2,2,1,2,0.5,1.5,STABLE,Repair Ship,54.01,True
+636,stable/mid,optimal/high,optimal/high,optimal/high,critical/low,Normal,1,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+637,stable/mid,optimal/high,optimal/high,optimal/high,critical/low,Solar Storm,1,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+638,stable/mid,optimal/high,optimal/high,optimal/high,critical/low,Asteroid Impact,1,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+639,stable/mid,optimal/high,optimal/high,optimal/high,critical/low,Safe Zone,1,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+640,stable/mid,optimal/high,optimal/high,optimal/high,stable/mid,Normal,1,2,2,2,1,0.5,1.5,STABLE,Power Saving,32.068,True
+641,stable/mid,optimal/high,optimal/high,optimal/high,stable/mid,Solar Storm,1,2,2,2,1,0.5,1.5,STABLE,Power Saving,18.454,True
+642,stable/mid,optimal/high,optimal/high,optimal/high,stable/mid,Asteroid Impact,1,2,2,2,1,0.5,1.5,STABLE,Propulsion,-99.997,True
+643,stable/mid,optimal/high,optimal/high,optimal/high,stable/mid,Safe Zone,1,2,2,2,1,0.5,1.5,STABLE,Repair Ship,59.689,True
+644,stable/mid,optimal/high,optimal/high,optimal/high,optimal/high,Normal,1,2,2,2,2,0.5,1.5,STABLE,Power Saving,57.113,True
+645,stable/mid,optimal/high,optimal/high,optimal/high,optimal/high,Solar Storm,1,2,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,54.736,True
+646,stable/mid,optimal/high,optimal/high,optimal/high,optimal/high,Asteroid Impact,1,2,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,28.564,True
+647,stable/mid,optimal/high,optimal/high,optimal/high,optimal/high,Safe Zone,1,2,2,2,2,0.5,1.5,STABLE,Repair Ship,61.091,True
+648,optimal/high,critical/low,critical/low,critical/low,critical/low,Normal,2,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+649,optimal/high,critical/low,critical/low,critical/low,critical/low,Solar Storm,2,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+650,optimal/high,critical/low,critical/low,critical/low,critical/low,Asteroid Impact,2,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+651,optimal/high,critical/low,critical/low,critical/low,critical/low,Safe Zone,2,0,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+652,optimal/high,critical/low,critical/low,critical/low,stable/mid,Normal,2,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+653,optimal/high,critical/low,critical/low,critical/low,stable/mid,Solar Storm,2,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+654,optimal/high,critical/low,critical/low,critical/low,stable/mid,Asteroid Impact,2,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+655,optimal/high,critical/low,critical/low,critical/low,stable/mid,Safe Zone,2,0,0,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+656,optimal/high,critical/low,critical/low,critical/low,optimal/high,Normal,2,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+657,optimal/high,critical/low,critical/low,critical/low,optimal/high,Solar Storm,2,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+658,optimal/high,critical/low,critical/low,critical/low,optimal/high,Asteroid Impact,2,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+659,optimal/high,critical/low,critical/low,critical/low,optimal/high,Safe Zone,2,0,0,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+660,optimal/high,critical/low,critical/low,stable/mid,critical/low,Normal,2,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+661,optimal/high,critical/low,critical/low,stable/mid,critical/low,Solar Storm,2,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+662,optimal/high,critical/low,critical/low,stable/mid,critical/low,Asteroid Impact,2,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+663,optimal/high,critical/low,critical/low,stable/mid,critical/low,Safe Zone,2,0,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+664,optimal/high,critical/low,critical/low,stable/mid,stable/mid,Normal,2,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+665,optimal/high,critical/low,critical/low,stable/mid,stable/mid,Solar Storm,2,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+666,optimal/high,critical/low,critical/low,stable/mid,stable/mid,Asteroid Impact,2,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+667,optimal/high,critical/low,critical/low,stable/mid,stable/mid,Safe Zone,2,0,0,1,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+668,optimal/high,critical/low,critical/low,stable/mid,optimal/high,Normal,2,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+669,optimal/high,critical/low,critical/low,stable/mid,optimal/high,Solar Storm,2,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+670,optimal/high,critical/low,critical/low,stable/mid,optimal/high,Asteroid Impact,2,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+671,optimal/high,critical/low,critical/low,stable/mid,optimal/high,Safe Zone,2,0,0,1,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+672,optimal/high,critical/low,critical/low,optimal/high,critical/low,Normal,2,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+673,optimal/high,critical/low,critical/low,optimal/high,critical/low,Solar Storm,2,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+674,optimal/high,critical/low,critical/low,optimal/high,critical/low,Asteroid Impact,2,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+675,optimal/high,critical/low,critical/low,optimal/high,critical/low,Safe Zone,2,0,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+676,optimal/high,critical/low,critical/low,optimal/high,stable/mid,Normal,2,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+677,optimal/high,critical/low,critical/low,optimal/high,stable/mid,Solar Storm,2,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+678,optimal/high,critical/low,critical/low,optimal/high,stable/mid,Asteroid Impact,2,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+679,optimal/high,critical/low,critical/low,optimal/high,stable/mid,Safe Zone,2,0,0,2,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+680,optimal/high,critical/low,critical/low,optimal/high,optimal/high,Normal,2,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+681,optimal/high,critical/low,critical/low,optimal/high,optimal/high,Solar Storm,2,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+682,optimal/high,critical/low,critical/low,optimal/high,optimal/high,Asteroid Impact,2,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+683,optimal/high,critical/low,critical/low,optimal/high,optimal/high,Safe Zone,2,0,0,2,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+684,optimal/high,critical/low,stable/mid,critical/low,critical/low,Normal,2,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+685,optimal/high,critical/low,stable/mid,critical/low,critical/low,Solar Storm,2,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+686,optimal/high,critical/low,stable/mid,critical/low,critical/low,Asteroid Impact,2,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+687,optimal/high,critical/low,stable/mid,critical/low,critical/low,Safe Zone,2,0,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+688,optimal/high,critical/low,stable/mid,critical/low,stable/mid,Normal,2,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+689,optimal/high,critical/low,stable/mid,critical/low,stable/mid,Solar Storm,2,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+690,optimal/high,critical/low,stable/mid,critical/low,stable/mid,Asteroid Impact,2,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+691,optimal/high,critical/low,stable/mid,critical/low,stable/mid,Safe Zone,2,0,1,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+692,optimal/high,critical/low,stable/mid,critical/low,optimal/high,Normal,2,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+693,optimal/high,critical/low,stable/mid,critical/low,optimal/high,Solar Storm,2,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+694,optimal/high,critical/low,stable/mid,critical/low,optimal/high,Asteroid Impact,2,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+695,optimal/high,critical/low,stable/mid,critical/low,optimal/high,Safe Zone,2,0,1,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+696,optimal/high,critical/low,stable/mid,stable/mid,critical/low,Normal,2,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+697,optimal/high,critical/low,stable/mid,stable/mid,critical/low,Solar Storm,2,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+698,optimal/high,critical/low,stable/mid,stable/mid,critical/low,Asteroid Impact,2,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+699,optimal/high,critical/low,stable/mid,stable/mid,critical/low,Safe Zone,2,0,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+700,optimal/high,critical/low,stable/mid,stable/mid,stable/mid,Normal,2,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+701,optimal/high,critical/low,stable/mid,stable/mid,stable/mid,Solar Storm,2,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+702,optimal/high,critical/low,stable/mid,stable/mid,stable/mid,Asteroid Impact,2,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+703,optimal/high,critical/low,stable/mid,stable/mid,stable/mid,Safe Zone,2,0,1,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+704,optimal/high,critical/low,stable/mid,stable/mid,optimal/high,Normal,2,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+705,optimal/high,critical/low,stable/mid,stable/mid,optimal/high,Solar Storm,2,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+706,optimal/high,critical/low,stable/mid,stable/mid,optimal/high,Asteroid Impact,2,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+707,optimal/high,critical/low,stable/mid,stable/mid,optimal/high,Safe Zone,2,0,1,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+708,optimal/high,critical/low,stable/mid,optimal/high,critical/low,Normal,2,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+709,optimal/high,critical/low,stable/mid,optimal/high,critical/low,Solar Storm,2,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+710,optimal/high,critical/low,stable/mid,optimal/high,critical/low,Asteroid Impact,2,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+711,optimal/high,critical/low,stable/mid,optimal/high,critical/low,Safe Zone,2,0,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+712,optimal/high,critical/low,stable/mid,optimal/high,stable/mid,Normal,2,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+713,optimal/high,critical/low,stable/mid,optimal/high,stable/mid,Solar Storm,2,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+714,optimal/high,critical/low,stable/mid,optimal/high,stable/mid,Asteroid Impact,2,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+715,optimal/high,critical/low,stable/mid,optimal/high,stable/mid,Safe Zone,2,0,1,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+716,optimal/high,critical/low,stable/mid,optimal/high,optimal/high,Normal,2,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+717,optimal/high,critical/low,stable/mid,optimal/high,optimal/high,Solar Storm,2,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+718,optimal/high,critical/low,stable/mid,optimal/high,optimal/high,Asteroid Impact,2,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+719,optimal/high,critical/low,stable/mid,optimal/high,optimal/high,Safe Zone,2,0,1,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+720,optimal/high,critical/low,optimal/high,critical/low,critical/low,Normal,2,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+721,optimal/high,critical/low,optimal/high,critical/low,critical/low,Solar Storm,2,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+722,optimal/high,critical/low,optimal/high,critical/low,critical/low,Asteroid Impact,2,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+723,optimal/high,critical/low,optimal/high,critical/low,critical/low,Safe Zone,2,0,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+724,optimal/high,critical/low,optimal/high,critical/low,stable/mid,Normal,2,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+725,optimal/high,critical/low,optimal/high,critical/low,stable/mid,Solar Storm,2,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+726,optimal/high,critical/low,optimal/high,critical/low,stable/mid,Asteroid Impact,2,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+727,optimal/high,critical/low,optimal/high,critical/low,stable/mid,Safe Zone,2,0,2,0,1,0.2811,2.1566,WARNING,Life Support,0.0,True
+728,optimal/high,critical/low,optimal/high,critical/low,optimal/high,Normal,2,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+729,optimal/high,critical/low,optimal/high,critical/low,optimal/high,Solar Storm,2,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+730,optimal/high,critical/low,optimal/high,critical/low,optimal/high,Asteroid Impact,2,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+731,optimal/high,critical/low,optimal/high,critical/low,optimal/high,Safe Zone,2,0,2,0,2,0.2811,2.1566,WARNING,Life Support,0.0,True
+732,optimal/high,critical/low,optimal/high,stable/mid,critical/low,Normal,2,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+733,optimal/high,critical/low,optimal/high,stable/mid,critical/low,Solar Storm,2,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+734,optimal/high,critical/low,optimal/high,stable/mid,critical/low,Asteroid Impact,2,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+735,optimal/high,critical/low,optimal/high,stable/mid,critical/low,Safe Zone,2,0,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+736,optimal/high,critical/low,optimal/high,stable/mid,stable/mid,Normal,2,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+737,optimal/high,critical/low,optimal/high,stable/mid,stable/mid,Solar Storm,2,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+738,optimal/high,critical/low,optimal/high,stable/mid,stable/mid,Asteroid Impact,2,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+739,optimal/high,critical/low,optimal/high,stable/mid,stable/mid,Safe Zone,2,0,2,1,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+740,optimal/high,critical/low,optimal/high,stable/mid,optimal/high,Normal,2,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+741,optimal/high,critical/low,optimal/high,stable/mid,optimal/high,Solar Storm,2,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+742,optimal/high,critical/low,optimal/high,stable/mid,optimal/high,Asteroid Impact,2,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+743,optimal/high,critical/low,optimal/high,stable/mid,optimal/high,Safe Zone,2,0,2,1,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+744,optimal/high,critical/low,optimal/high,optimal/high,critical/low,Normal,2,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+745,optimal/high,critical/low,optimal/high,optimal/high,critical/low,Solar Storm,2,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+746,optimal/high,critical/low,optimal/high,optimal/high,critical/low,Asteroid Impact,2,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+747,optimal/high,critical/low,optimal/high,optimal/high,critical/low,Safe Zone,2,0,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+748,optimal/high,critical/low,optimal/high,optimal/high,stable/mid,Normal,2,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+749,optimal/high,critical/low,optimal/high,optimal/high,stable/mid,Solar Storm,2,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+750,optimal/high,critical/low,optimal/high,optimal/high,stable/mid,Asteroid Impact,2,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+751,optimal/high,critical/low,optimal/high,optimal/high,stable/mid,Safe Zone,2,0,2,2,1,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+752,optimal/high,critical/low,optimal/high,optimal/high,optimal/high,Normal,2,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+753,optimal/high,critical/low,optimal/high,optimal/high,optimal/high,Solar Storm,2,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+754,optimal/high,critical/low,optimal/high,optimal/high,optimal/high,Asteroid Impact,2,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+755,optimal/high,critical/low,optimal/high,optimal/high,optimal/high,Safe Zone,2,0,2,2,2,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+756,optimal/high,stable/mid,critical/low,critical/low,critical/low,Normal,2,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+757,optimal/high,stable/mid,critical/low,critical/low,critical/low,Solar Storm,2,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+758,optimal/high,stable/mid,critical/low,critical/low,critical/low,Asteroid Impact,2,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+759,optimal/high,stable/mid,critical/low,critical/low,critical/low,Safe Zone,2,1,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+760,optimal/high,stable/mid,critical/low,critical/low,stable/mid,Normal,2,1,0,0,1,0.3333,2.0,WARNING,Move to Safe Zone,1.262,True
+761,optimal/high,stable/mid,critical/low,critical/low,stable/mid,Solar Storm,2,1,0,0,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+762,optimal/high,stable/mid,critical/low,critical/low,stable/mid,Asteroid Impact,2,1,0,0,1,0.3333,2.0,WARNING,Gather Resources,0.0,True
+763,optimal/high,stable/mid,critical/low,critical/low,stable/mid,Safe Zone,2,1,0,0,1,0.3333,2.0,WARNING,Life Support,1.6,True
+764,optimal/high,stable/mid,critical/low,critical/low,optimal/high,Normal,2,1,0,0,2,0.3333,2.0,WARNING,Life Support,0.0,True
+765,optimal/high,stable/mid,critical/low,critical/low,optimal/high,Solar Storm,2,1,0,0,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+766,optimal/high,stable/mid,critical/low,critical/low,optimal/high,Asteroid Impact,2,1,0,0,2,0.3333,2.0,WARNING,Life Support,0.0,True
+767,optimal/high,stable/mid,critical/low,critical/low,optimal/high,Safe Zone,2,1,0,0,2,0.3333,2.0,WARNING,Life Support,0.0,True
+768,optimal/high,stable/mid,critical/low,stable/mid,critical/low,Normal,2,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+769,optimal/high,stable/mid,critical/low,stable/mid,critical/low,Solar Storm,2,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+770,optimal/high,stable/mid,critical/low,stable/mid,critical/low,Asteroid Impact,2,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+771,optimal/high,stable/mid,critical/low,stable/mid,critical/low,Safe Zone,2,1,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+772,optimal/high,stable/mid,critical/low,stable/mid,stable/mid,Normal,2,1,0,1,1,0.3333,2.0,WARNING,Move to Safe Zone,9.876,True
+773,optimal/high,stable/mid,critical/low,stable/mid,stable/mid,Solar Storm,2,1,0,1,1,0.3333,2.0,WARNING,Power Saving,-1.317,True
+774,optimal/high,stable/mid,critical/low,stable/mid,stable/mid,Asteroid Impact,2,1,0,1,1,0.3333,2.0,WARNING,Gather Resources,0.0,True
+775,optimal/high,stable/mid,critical/low,stable/mid,stable/mid,Safe Zone,2,1,0,1,1,0.3333,2.0,WARNING,Life Support,4.775,True
+776,optimal/high,stable/mid,critical/low,stable/mid,optimal/high,Normal,2,1,0,1,2,0.3333,2.0,WARNING,Propulsion,-0.4,True
+777,optimal/high,stable/mid,critical/low,stable/mid,optimal/high,Solar Storm,2,1,0,1,2,0.3333,2.0,WARNING,Gather Resources,2.765,True
+778,optimal/high,stable/mid,critical/low,stable/mid,optimal/high,Asteroid Impact,2,1,0,1,2,0.3333,2.0,WARNING,Life Support,0.0,True
+779,optimal/high,stable/mid,critical/low,stable/mid,optimal/high,Safe Zone,2,1,0,1,2,0.3333,2.0,WARNING,Life Support,0.0,True
+780,optimal/high,stable/mid,critical/low,optimal/high,critical/low,Normal,2,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+781,optimal/high,stable/mid,critical/low,optimal/high,critical/low,Solar Storm,2,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+782,optimal/high,stable/mid,critical/low,optimal/high,critical/low,Asteroid Impact,2,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+783,optimal/high,stable/mid,critical/low,optimal/high,critical/low,Safe Zone,2,1,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+784,optimal/high,stable/mid,critical/low,optimal/high,stable/mid,Normal,2,1,0,2,1,0.3333,2.0,WARNING,Propulsion,0.0,True
+785,optimal/high,stable/mid,critical/low,optimal/high,stable/mid,Solar Storm,2,1,0,2,1,0.3333,2.0,WARNING,Move to Safe Zone,1.834,True
+786,optimal/high,stable/mid,critical/low,optimal/high,stable/mid,Asteroid Impact,2,1,0,2,1,0.3333,2.0,WARNING,Life Support,0.0,True
+787,optimal/high,stable/mid,critical/low,optimal/high,stable/mid,Safe Zone,2,1,0,2,1,0.3333,2.0,WARNING,Life Support,0.0,True
+788,optimal/high,stable/mid,critical/low,optimal/high,optimal/high,Normal,2,1,0,2,2,0.3333,2.0,WARNING,Propulsion,0.0,True
+789,optimal/high,stable/mid,critical/low,optimal/high,optimal/high,Solar Storm,2,1,0,2,2,0.3333,2.0,WARNING,Move to Safe Zone,3.336,True
+790,optimal/high,stable/mid,critical/low,optimal/high,optimal/high,Asteroid Impact,2,1,0,2,2,0.3333,2.0,WARNING,Life Support,0.0,True
+791,optimal/high,stable/mid,critical/low,optimal/high,optimal/high,Safe Zone,2,1,0,2,2,0.3333,2.0,WARNING,Life Support,5.018,True
+792,optimal/high,stable/mid,stable/mid,critical/low,critical/low,Normal,2,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+793,optimal/high,stable/mid,stable/mid,critical/low,critical/low,Solar Storm,2,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+794,optimal/high,stable/mid,stable/mid,critical/low,critical/low,Asteroid Impact,2,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+795,optimal/high,stable/mid,stable/mid,critical/low,critical/low,Safe Zone,2,1,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+796,optimal/high,stable/mid,stable/mid,critical/low,stable/mid,Normal,2,1,1,0,1,0.3333,2.0,WARNING,Move to Safe Zone,13.773,True
+797,optimal/high,stable/mid,stable/mid,critical/low,stable/mid,Solar Storm,2,1,1,0,1,0.3333,2.0,WARNING,Power Saving,-8.455,True
+798,optimal/high,stable/mid,stable/mid,critical/low,stable/mid,Asteroid Impact,2,1,1,0,1,0.3333,2.0,WARNING,Repair Ship,-16.137,True
+799,optimal/high,stable/mid,stable/mid,critical/low,stable/mid,Safe Zone,2,1,1,0,1,0.3333,2.0,WARNING,Gather Resources,15.372,True
+800,optimal/high,stable/mid,stable/mid,critical/low,optimal/high,Normal,2,1,1,0,2,0.3333,2.0,WARNING,Move to Safe Zone,42.931,True
+801,optimal/high,stable/mid,stable/mid,critical/low,optimal/high,Solar Storm,2,1,1,0,2,0.3333,2.0,WARNING,Gather Resources,21.172,True
+802,optimal/high,stable/mid,stable/mid,critical/low,optimal/high,Asteroid Impact,2,1,1,0,2,0.3333,2.0,WARNING,Propulsion,1.639,True
+803,optimal/high,stable/mid,stable/mid,critical/low,optimal/high,Safe Zone,2,1,1,0,2,0.3333,2.0,WARNING,Life Support,16.598,True
+804,optimal/high,stable/mid,stable/mid,stable/mid,critical/low,Normal,2,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+805,optimal/high,stable/mid,stable/mid,stable/mid,critical/low,Solar Storm,2,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+806,optimal/high,stable/mid,stable/mid,stable/mid,critical/low,Asteroid Impact,2,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+807,optimal/high,stable/mid,stable/mid,stable/mid,critical/low,Safe Zone,2,1,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+808,optimal/high,stable/mid,stable/mid,stable/mid,stable/mid,Normal,2,1,1,1,1,0.5,1.5,STABLE,Move to Safe Zone,13.886,True
+809,optimal/high,stable/mid,stable/mid,stable/mid,stable/mid,Solar Storm,2,1,1,1,1,0.5,1.5,STABLE,Gather Resources,0.191,True
+810,optimal/high,stable/mid,stable/mid,stable/mid,stable/mid,Asteroid Impact,2,1,1,1,1,0.5,1.5,STABLE,Repair Ship,-30.772,True
+811,optimal/high,stable/mid,stable/mid,stable/mid,stable/mid,Safe Zone,2,1,1,1,1,0.5,1.5,STABLE,Life Support,25.516,True
+812,optimal/high,stable/mid,stable/mid,stable/mid,optimal/high,Normal,2,1,1,1,2,0.5,1.5,STABLE,Move to Safe Zone,46.435,True
+813,optimal/high,stable/mid,stable/mid,stable/mid,optimal/high,Solar Storm,2,1,1,1,2,0.5,1.5,STABLE,Gather Resources,57.56,True
+814,optimal/high,stable/mid,stable/mid,stable/mid,optimal/high,Asteroid Impact,2,1,1,1,2,0.5,1.5,STABLE,Move to Safe Zone,13.681,True
+815,optimal/high,stable/mid,stable/mid,stable/mid,optimal/high,Safe Zone,2,1,1,1,2,0.5,1.5,STABLE,Life Support,55.599,True
+816,optimal/high,stable/mid,stable/mid,optimal/high,critical/low,Normal,2,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+817,optimal/high,stable/mid,stable/mid,optimal/high,critical/low,Solar Storm,2,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+818,optimal/high,stable/mid,stable/mid,optimal/high,critical/low,Asteroid Impact,2,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+819,optimal/high,stable/mid,stable/mid,optimal/high,critical/low,Safe Zone,2,1,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+820,optimal/high,stable/mid,stable/mid,optimal/high,stable/mid,Normal,2,1,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,42.184,True
+821,optimal/high,stable/mid,stable/mid,optimal/high,stable/mid,Solar Storm,2,1,1,2,1,0.5,1.5,STABLE,Power Saving,12.061,True
+822,optimal/high,stable/mid,stable/mid,optimal/high,stable/mid,Asteroid Impact,2,1,1,2,1,0.5,1.5,STABLE,Power Saving,0.0,True
+823,optimal/high,stable/mid,stable/mid,optimal/high,stable/mid,Safe Zone,2,1,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,23.057,True
+824,optimal/high,stable/mid,stable/mid,optimal/high,optimal/high,Normal,2,1,1,2,2,0.5,1.5,STABLE,Move to Safe Zone,57.658,True
+825,optimal/high,stable/mid,stable/mid,optimal/high,optimal/high,Solar Storm,2,1,1,2,2,0.5,1.5,STABLE,Propulsion,33.596,True
+826,optimal/high,stable/mid,stable/mid,optimal/high,optimal/high,Asteroid Impact,2,1,1,2,2,0.5,1.5,STABLE,Life Support,10.932,True
+827,optimal/high,stable/mid,stable/mid,optimal/high,optimal/high,Safe Zone,2,1,1,2,2,0.5,1.5,STABLE,Power Saving,49.291,True
+828,optimal/high,stable/mid,optimal/high,critical/low,critical/low,Normal,2,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+829,optimal/high,stable/mid,optimal/high,critical/low,critical/low,Solar Storm,2,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+830,optimal/high,stable/mid,optimal/high,critical/low,critical/low,Asteroid Impact,2,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+831,optimal/high,stable/mid,optimal/high,critical/low,critical/low,Safe Zone,2,1,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+832,optimal/high,stable/mid,optimal/high,critical/low,stable/mid,Normal,2,1,2,0,1,0.3333,2.0,WARNING,Move to Safe Zone,10.737,True
+833,optimal/high,stable/mid,optimal/high,critical/low,stable/mid,Solar Storm,2,1,2,0,1,0.3333,2.0,WARNING,Move to Safe Zone,-8.806,True
+834,optimal/high,stable/mid,optimal/high,critical/low,stable/mid,Asteroid Impact,2,1,2,0,1,0.3333,2.0,WARNING,Repair Ship,-16.867,True
+835,optimal/high,stable/mid,optimal/high,critical/low,stable/mid,Safe Zone,2,1,2,0,1,0.3333,2.0,WARNING,Move to Safe Zone,20.108,True
+836,optimal/high,stable/mid,optimal/high,critical/low,optimal/high,Normal,2,1,2,0,2,0.3333,2.0,WARNING,Move to Safe Zone,42.03,True
+837,optimal/high,stable/mid,optimal/high,critical/low,optimal/high,Solar Storm,2,1,2,0,2,0.3333,2.0,WARNING,Gather Resources,36.111,True
+838,optimal/high,stable/mid,optimal/high,critical/low,optimal/high,Asteroid Impact,2,1,2,0,2,0.3333,2.0,WARNING,Move to Safe Zone,10.173,True
+839,optimal/high,stable/mid,optimal/high,critical/low,optimal/high,Safe Zone,2,1,2,0,2,0.3333,2.0,WARNING,Gather Resources,48.533,True
+840,optimal/high,stable/mid,optimal/high,stable/mid,critical/low,Normal,2,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+841,optimal/high,stable/mid,optimal/high,stable/mid,critical/low,Solar Storm,2,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+842,optimal/high,stable/mid,optimal/high,stable/mid,critical/low,Asteroid Impact,2,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+843,optimal/high,stable/mid,optimal/high,stable/mid,critical/low,Safe Zone,2,1,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+844,optimal/high,stable/mid,optimal/high,stable/mid,stable/mid,Normal,2,1,2,1,1,0.5,1.5,STABLE,Move to Safe Zone,16.729,True
+845,optimal/high,stable/mid,optimal/high,stable/mid,stable/mid,Solar Storm,2,1,2,1,1,0.5,1.5,STABLE,Gather Resources,5.217,True
+846,optimal/high,stable/mid,optimal/high,stable/mid,stable/mid,Asteroid Impact,2,1,2,1,1,0.5,1.5,STABLE,Repair Ship,1.959,True
+847,optimal/high,stable/mid,optimal/high,stable/mid,stable/mid,Safe Zone,2,1,2,1,1,0.5,1.5,STABLE,Repair Ship,49.407,True
+848,optimal/high,stable/mid,optimal/high,stable/mid,optimal/high,Normal,2,1,2,1,2,0.5,1.5,STABLE,Move to Safe Zone,46.294,True
+849,optimal/high,stable/mid,optimal/high,stable/mid,optimal/high,Solar Storm,2,1,2,1,2,0.5,1.5,STABLE,Gather Resources,52.371,True
+850,optimal/high,stable/mid,optimal/high,stable/mid,optimal/high,Asteroid Impact,2,1,2,1,2,0.5,1.5,STABLE,Move to Safe Zone,20.057,True
+851,optimal/high,stable/mid,optimal/high,stable/mid,optimal/high,Safe Zone,2,1,2,1,2,0.5,1.5,STABLE,Life Support,57.248,True
+852,optimal/high,stable/mid,optimal/high,optimal/high,critical/low,Normal,2,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+853,optimal/high,stable/mid,optimal/high,optimal/high,critical/low,Solar Storm,2,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+854,optimal/high,stable/mid,optimal/high,optimal/high,critical/low,Asteroid Impact,2,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+855,optimal/high,stable/mid,optimal/high,optimal/high,critical/low,Safe Zone,2,1,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+856,optimal/high,stable/mid,optimal/high,optimal/high,stable/mid,Normal,2,1,2,2,1,0.5,1.5,STABLE,Move to Safe Zone,28.16,True
+857,optimal/high,stable/mid,optimal/high,optimal/high,stable/mid,Solar Storm,2,1,2,2,1,0.5,1.5,STABLE,Move to Safe Zone,-5.605,True
+858,optimal/high,stable/mid,optimal/high,optimal/high,stable/mid,Asteroid Impact,2,1,2,2,1,0.5,1.5,STABLE,Repair Ship,-10.916,True
+859,optimal/high,stable/mid,optimal/high,optimal/high,stable/mid,Safe Zone,2,1,2,2,1,0.5,1.5,STABLE,Life Support,32.09,True
+860,optimal/high,stable/mid,optimal/high,optimal/high,optimal/high,Normal,2,1,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,58.237,True
+861,optimal/high,stable/mid,optimal/high,optimal/high,optimal/high,Solar Storm,2,1,2,2,2,0.5,1.5,STABLE,Power Saving,50.503,True
+862,optimal/high,stable/mid,optimal/high,optimal/high,optimal/high,Asteroid Impact,2,1,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,31.239,True
+863,optimal/high,stable/mid,optimal/high,optimal/high,optimal/high,Safe Zone,2,1,2,2,2,0.5,1.5,STABLE,Move to Safe Zone,59.898,True
+864,optimal/high,optimal/high,critical/low,critical/low,critical/low,Normal,2,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+865,optimal/high,optimal/high,critical/low,critical/low,critical/low,Solar Storm,2,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+866,optimal/high,optimal/high,critical/low,critical/low,critical/low,Asteroid Impact,2,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+867,optimal/high,optimal/high,critical/low,critical/low,critical/low,Safe Zone,2,2,0,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+868,optimal/high,optimal/high,critical/low,critical/low,stable/mid,Normal,2,2,0,0,1,0.3333,2.0,WARNING,Gather Resources,17.167,True
+869,optimal/high,optimal/high,critical/low,critical/low,stable/mid,Solar Storm,2,2,0,0,1,0.3333,2.0,WARNING,Gather Resources,0.0,True
+870,optimal/high,optimal/high,critical/low,critical/low,stable/mid,Asteroid Impact,2,2,0,0,1,0.3333,2.0,WARNING,Life Support,0.0,True
+871,optimal/high,optimal/high,critical/low,critical/low,stable/mid,Safe Zone,2,2,0,0,1,0.3333,2.0,WARNING,Propulsion,1.844,True
+872,optimal/high,optimal/high,critical/low,critical/low,optimal/high,Normal,2,2,0,0,2,0.5136,1.4591,STABLE,Gather Resources,5.242,True
+873,optimal/high,optimal/high,critical/low,critical/low,optimal/high,Solar Storm,2,2,0,0,2,0.5136,1.4591,STABLE,Life Support,0.0,True
+874,optimal/high,optimal/high,critical/low,critical/low,optimal/high,Asteroid Impact,2,2,0,0,2,0.5136,1.4591,STABLE,Life Support,0.0,True
+875,optimal/high,optimal/high,critical/low,critical/low,optimal/high,Safe Zone,2,2,0,0,2,0.5136,1.4591,STABLE,Life Support,0.0,True
+876,optimal/high,optimal/high,critical/low,stable/mid,critical/low,Normal,2,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+877,optimal/high,optimal/high,critical/low,stable/mid,critical/low,Solar Storm,2,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+878,optimal/high,optimal/high,critical/low,stable/mid,critical/low,Asteroid Impact,2,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+879,optimal/high,optimal/high,critical/low,stable/mid,critical/low,Safe Zone,2,2,0,1,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+880,optimal/high,optimal/high,critical/low,stable/mid,stable/mid,Normal,2,2,0,1,1,0.3333,2.0,WARNING,Gather Resources,20.481,True
+881,optimal/high,optimal/high,critical/low,stable/mid,stable/mid,Solar Storm,2,2,0,1,1,0.3333,2.0,WARNING,Power Saving,-0.436,True
+882,optimal/high,optimal/high,critical/low,stable/mid,stable/mid,Asteroid Impact,2,2,0,1,1,0.3333,2.0,WARNING,Repair Ship,-0.4,True
+883,optimal/high,optimal/high,critical/low,stable/mid,stable/mid,Safe Zone,2,2,0,1,1,0.3333,2.0,WARNING,Repair Ship,37.125,True
+884,optimal/high,optimal/high,critical/low,stable/mid,optimal/high,Normal,2,2,0,1,2,0.5136,1.4591,STABLE,Move to Safe Zone,33.171,True
+885,optimal/high,optimal/high,critical/low,stable/mid,optimal/high,Solar Storm,2,2,0,1,2,0.5136,1.4591,STABLE,Gather Resources,23.482,True
+886,optimal/high,optimal/high,critical/low,stable/mid,optimal/high,Asteroid Impact,2,2,0,1,2,0.5136,1.4591,STABLE,Gather Resources,4.016,True
+887,optimal/high,optimal/high,critical/low,stable/mid,optimal/high,Safe Zone,2,2,0,1,2,0.5136,1.4591,STABLE,Life Support,28.648,True
+888,optimal/high,optimal/high,critical/low,optimal/high,critical/low,Normal,2,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+889,optimal/high,optimal/high,critical/low,optimal/high,critical/low,Solar Storm,2,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+890,optimal/high,optimal/high,critical/low,optimal/high,critical/low,Asteroid Impact,2,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+891,optimal/high,optimal/high,critical/low,optimal/high,critical/low,Safe Zone,2,2,0,2,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+892,optimal/high,optimal/high,critical/low,optimal/high,stable/mid,Normal,2,2,0,2,1,0.3333,2.0,WARNING,Propulsion,2.839,True
+893,optimal/high,optimal/high,critical/low,optimal/high,stable/mid,Solar Storm,2,2,0,2,1,0.3333,2.0,WARNING,Gather Resources,0.0,True
+894,optimal/high,optimal/high,critical/low,optimal/high,stable/mid,Asteroid Impact,2,2,0,2,1,0.3333,2.0,WARNING,Life Support,0.0,True
+895,optimal/high,optimal/high,critical/low,optimal/high,stable/mid,Safe Zone,2,2,0,2,1,0.3333,2.0,WARNING,Life Support,7.429,True
+896,optimal/high,optimal/high,critical/low,optimal/high,optimal/high,Normal,2,2,0,2,2,0.5136,1.4591,STABLE,Life Support,0.3,True
+897,optimal/high,optimal/high,critical/low,optimal/high,optimal/high,Solar Storm,2,2,0,2,2,0.5136,1.4591,STABLE,Propulsion,0.0,True
+898,optimal/high,optimal/high,critical/low,optimal/high,optimal/high,Asteroid Impact,2,2,0,2,2,0.5136,1.4591,STABLE,Life Support,0.0,True
+899,optimal/high,optimal/high,critical/low,optimal/high,optimal/high,Safe Zone,2,2,0,2,2,0.5136,1.4591,STABLE,Life Support,0.0,True
+900,optimal/high,optimal/high,stable/mid,critical/low,critical/low,Normal,2,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+901,optimal/high,optimal/high,stable/mid,critical/low,critical/low,Solar Storm,2,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+902,optimal/high,optimal/high,stable/mid,critical/low,critical/low,Asteroid Impact,2,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+903,optimal/high,optimal/high,stable/mid,critical/low,critical/low,Safe Zone,2,2,1,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+904,optimal/high,optimal/high,stable/mid,critical/low,stable/mid,Normal,2,2,1,0,1,0.3333,2.0,WARNING,Gather Resources,24.993,True
+905,optimal/high,optimal/high,stable/mid,critical/low,stable/mid,Solar Storm,2,2,1,0,1,0.3333,2.0,WARNING,Gather Resources,12.31,True
+906,optimal/high,optimal/high,stable/mid,critical/low,stable/mid,Asteroid Impact,2,2,1,0,1,0.3333,2.0,WARNING,Repair Ship,0.123,True
+907,optimal/high,optimal/high,stable/mid,critical/low,stable/mid,Safe Zone,2,2,1,0,1,0.3333,2.0,WARNING,Gather Resources,33.098,True
+908,optimal/high,optimal/high,stable/mid,critical/low,optimal/high,Normal,2,2,1,0,2,0.5136,1.4591,STABLE,Gather Resources,58.816,True
+909,optimal/high,optimal/high,stable/mid,critical/low,optimal/high,Solar Storm,2,2,1,0,2,0.5136,1.4591,STABLE,Gather Resources,51.78,True
+910,optimal/high,optimal/high,stable/mid,critical/low,optimal/high,Asteroid Impact,2,2,1,0,2,0.5136,1.4591,STABLE,Gather Resources,26.165,True
+911,optimal/high,optimal/high,stable/mid,critical/low,optimal/high,Safe Zone,2,2,1,0,2,0.5136,1.4591,STABLE,Life Support,49.504,True
+912,optimal/high,optimal/high,stable/mid,stable/mid,critical/low,Normal,2,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+913,optimal/high,optimal/high,stable/mid,stable/mid,critical/low,Solar Storm,2,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+914,optimal/high,optimal/high,stable/mid,stable/mid,critical/low,Asteroid Impact,2,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+915,optimal/high,optimal/high,stable/mid,stable/mid,critical/low,Safe Zone,2,2,1,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+916,optimal/high,optimal/high,stable/mid,stable/mid,stable/mid,Normal,2,2,1,1,1,0.5,1.5,STABLE,Power Saving,18.58,True
+917,optimal/high,optimal/high,stable/mid,stable/mid,stable/mid,Solar Storm,2,2,1,1,1,0.5,1.5,STABLE,Gather Resources,-18.101,True
+918,optimal/high,optimal/high,stable/mid,stable/mid,stable/mid,Asteroid Impact,2,2,1,1,1,0.5,1.5,STABLE,Repair Ship,20.483,True
+919,optimal/high,optimal/high,stable/mid,stable/mid,stable/mid,Safe Zone,2,2,1,1,1,0.5,1.5,STABLE,Power Saving,33.985,True
+920,optimal/high,optimal/high,stable/mid,stable/mid,optimal/high,Normal,2,2,1,1,2,0.8855,0.3434,OPTIMAL,Gather Resources,56.735,True
+921,optimal/high,optimal/high,stable/mid,stable/mid,optimal/high,Solar Storm,2,2,1,1,2,0.8855,0.3434,OPTIMAL,Gather Resources,49.533,True
+922,optimal/high,optimal/high,stable/mid,stable/mid,optimal/high,Asteroid Impact,2,2,1,1,2,0.8855,0.3434,OPTIMAL,Gather Resources,30.399,True
+923,optimal/high,optimal/high,stable/mid,stable/mid,optimal/high,Safe Zone,2,2,1,1,2,0.8855,0.3434,OPTIMAL,Life Support,60.822,True
+924,optimal/high,optimal/high,stable/mid,optimal/high,critical/low,Normal,2,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+925,optimal/high,optimal/high,stable/mid,optimal/high,critical/low,Solar Storm,2,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+926,optimal/high,optimal/high,stable/mid,optimal/high,critical/low,Asteroid Impact,2,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+927,optimal/high,optimal/high,stable/mid,optimal/high,critical/low,Safe Zone,2,2,1,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+928,optimal/high,optimal/high,stable/mid,optimal/high,stable/mid,Normal,2,2,1,2,1,0.5,1.5,STABLE,Propulsion,14.227,True
+929,optimal/high,optimal/high,stable/mid,optimal/high,stable/mid,Solar Storm,2,2,1,2,1,0.5,1.5,STABLE,Move to Safe Zone,17.888,True
+930,optimal/high,optimal/high,stable/mid,optimal/high,stable/mid,Asteroid Impact,2,2,1,2,1,0.5,1.5,STABLE,Repair Ship,18.854,True
+931,optimal/high,optimal/high,stable/mid,optimal/high,stable/mid,Safe Zone,2,2,1,2,1,0.5,1.5,STABLE,Gather Resources,32.613,True
+932,optimal/high,optimal/high,stable/mid,optimal/high,optimal/high,Normal,2,2,1,2,2,0.8855,0.3434,OPTIMAL,Gather Resources,59.501,True
+933,optimal/high,optimal/high,stable/mid,optimal/high,optimal/high,Solar Storm,2,2,1,2,2,0.8855,0.3434,OPTIMAL,Move to Safe Zone,56.375,True
+934,optimal/high,optimal/high,stable/mid,optimal/high,optimal/high,Asteroid Impact,2,2,1,2,2,0.8855,0.3434,OPTIMAL,Repair Ship,22.684,True
+935,optimal/high,optimal/high,stable/mid,optimal/high,optimal/high,Safe Zone,2,2,1,2,2,0.8855,0.3434,OPTIMAL,Gather Resources,58.897,True
+936,optimal/high,optimal/high,optimal/high,critical/low,critical/low,Normal,2,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+937,optimal/high,optimal/high,optimal/high,critical/low,critical/low,Solar Storm,2,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+938,optimal/high,optimal/high,optimal/high,critical/low,critical/low,Asteroid Impact,2,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+939,optimal/high,optimal/high,optimal/high,critical/low,critical/low,Safe Zone,2,2,2,0,0,0.2811,2.1566,WARNING,Life Support,0.0,True
+940,optimal/high,optimal/high,optimal/high,critical/low,stable/mid,Normal,2,2,2,0,1,0.3333,2.0,WARNING,Gather Resources,30.967,True
+941,optimal/high,optimal/high,optimal/high,critical/low,stable/mid,Solar Storm,2,2,2,0,1,0.3333,2.0,WARNING,Propulsion,-12.998,True
+942,optimal/high,optimal/high,optimal/high,critical/low,stable/mid,Asteroid Impact,2,2,2,0,1,0.3333,2.0,WARNING,Repair Ship,0.848,True
+943,optimal/high,optimal/high,optimal/high,critical/low,stable/mid,Safe Zone,2,2,2,0,1,0.3333,2.0,WARNING,Repair Ship,51.297,True
+944,optimal/high,optimal/high,optimal/high,critical/low,optimal/high,Normal,2,2,2,0,2,0.5136,1.4591,STABLE,Gather Resources,55.652,True
+945,optimal/high,optimal/high,optimal/high,critical/low,optimal/high,Solar Storm,2,2,2,0,2,0.5136,1.4591,STABLE,Gather Resources,54.894,True
+946,optimal/high,optimal/high,optimal/high,critical/low,optimal/high,Asteroid Impact,2,2,2,0,2,0.5136,1.4591,STABLE,Gather Resources,29.339,True
+947,optimal/high,optimal/high,optimal/high,critical/low,optimal/high,Safe Zone,2,2,2,0,2,0.5136,1.4591,STABLE,Gather Resources,59.217,True
+948,optimal/high,optimal/high,optimal/high,stable/mid,critical/low,Normal,2,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+949,optimal/high,optimal/high,optimal/high,stable/mid,critical/low,Solar Storm,2,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+950,optimal/high,optimal/high,optimal/high,stable/mid,critical/low,Asteroid Impact,2,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+951,optimal/high,optimal/high,optimal/high,stable/mid,critical/low,Safe Zone,2,2,2,1,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+952,optimal/high,optimal/high,optimal/high,stable/mid,stable/mid,Normal,2,2,2,1,1,0.5,1.5,STABLE,Gather Resources,26.411,True
+953,optimal/high,optimal/high,optimal/high,stable/mid,stable/mid,Solar Storm,2,2,2,1,1,0.5,1.5,STABLE,Power Saving,10.56,True
+954,optimal/high,optimal/high,optimal/high,stable/mid,stable/mid,Asteroid Impact,2,2,2,1,1,0.5,1.5,STABLE,Repair Ship,30.872,True
+955,optimal/high,optimal/high,optimal/high,stable/mid,stable/mid,Safe Zone,2,2,2,1,1,0.5,1.5,STABLE,Repair Ship,59.629,True
+956,optimal/high,optimal/high,optimal/high,stable/mid,optimal/high,Normal,2,2,2,1,2,0.8855,0.3434,OPTIMAL,Gather Resources,58.113,True
+957,optimal/high,optimal/high,optimal/high,stable/mid,optimal/high,Solar Storm,2,2,2,1,2,0.8855,0.3434,OPTIMAL,Gather Resources,57.108,True
+958,optimal/high,optimal/high,optimal/high,stable/mid,optimal/high,Asteroid Impact,2,2,2,1,2,0.8855,0.3434,OPTIMAL,Power Saving,29.661,True
+959,optimal/high,optimal/high,optimal/high,stable/mid,optimal/high,Safe Zone,2,2,2,1,2,0.8855,0.3434,OPTIMAL,Gather Resources,58.429,True
+960,optimal/high,optimal/high,optimal/high,optimal/high,critical/low,Normal,2,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+961,optimal/high,optimal/high,optimal/high,optimal/high,critical/low,Solar Storm,2,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+962,optimal/high,optimal/high,optimal/high,optimal/high,critical/low,Asteroid Impact,2,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+963,optimal/high,optimal/high,optimal/high,optimal/high,critical/low,Safe Zone,2,2,2,2,0,0.1145,2.6566,CRITICAL,Life Support,0.0,True
+964,optimal/high,optimal/high,optimal/high,optimal/high,stable/mid,Normal,2,2,2,2,1,0.5,1.5,STABLE,Move to Safe Zone,36.09,True
+965,optimal/high,optimal/high,optimal/high,optimal/high,stable/mid,Solar Storm,2,2,2,2,1,0.5,1.5,STABLE,Gather Resources,-2.86,True
+966,optimal/high,optimal/high,optimal/high,optimal/high,stable/mid,Asteroid Impact,2,2,2,2,1,0.5,1.5,STABLE,Repair Ship,31.875,True
+967,optimal/high,optimal/high,optimal/high,optimal/high,stable/mid,Safe Zone,2,2,2,2,1,0.5,1.5,STABLE,Repair Ship,60.46,True
+968,optimal/high,optimal/high,optimal/high,optimal/high,optimal/high,Normal,2,2,2,2,2,0.8855,0.3434,OPTIMAL,Power Saving,58.437,True
+969,optimal/high,optimal/high,optimal/high,optimal/high,optimal/high,Solar Storm,2,2,2,2,2,0.8855,0.3434,OPTIMAL,Gather Resources,55.439,True
+970,optimal/high,optimal/high,optimal/high,optimal/high,optimal/high,Asteroid Impact,2,2,2,2,2,0.8855,0.3434,OPTIMAL,Move to Safe Zone,34.957,True
+971,optimal/high,optimal/high,optimal/high,optimal/high,optimal/high,Safe Zone,2,2,2,2,2,0.8855,0.3434,OPTIMAL,Power Saving,62.392,True
